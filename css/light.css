@@ -1,0 +1,193 @@
+body{
+    background-color: #fff; 
+    color: #1a1d22;
+}
+
+/* --------------------------------------------
+NAVBAR
+-------------------------------------------- */
+.navbar {
+    background-color: #1a1d22;
+}
+
+.navbar hr {
+    color: #fff;
+}
+
+.brand {
+    fill: #fff;
+}
+
+.navbar-toggler span{
+    color: #fff;
+}
+
+.navbar-toggler span:hover{
+    color: #606161;
+}
+
+a,
+.nav-link{
+    color: #fff; 
+}
+
+.nav-link:link, 
+.nav-link:visited, 
+.nav-link:active {
+  color: #fff;
+}
+
+.brand:hover,
+.nav-link:hover{
+    color: #606161;
+    fill: #606161;
+}
+
+#btnLanguage:hover{
+    color: #fff;
+}
+
+/* --------------------------------------------
+APRESENTATION
+-------------------------------------------- */
+.box img{
+    -webkit-box-shadow: 0 0 0 4rem #e9e9e9; 
+    box-shadow: 0 0 0 4rem #e9e9e9; 
+}
+
+.apresentation {
+    background-color: #e9e9e9;
+    color: #1a1d22;
+}
+
+/* --------------------------------------------
+SIDE LIST / CARD
+-------------------------------------------- */
+#about{
+    background-color: #f0f0f0;
+}
+
+#about li a{
+    color: #1a1d22;
+}
+
+#about ul li a:hover{
+    color: #1a1d22;
+    background-color: #c0c0c0;
+}
+
+.card-header{
+    color:#1a1d22;
+    border-bottom-color:#1a1d22;
+}
+
+.card-footer{
+    background-color: #f0f0f0;
+}
+
+.list-unstyled li {
+    border-bottom-color: #1a1d22;
+}
+
+.skills a[aria-expanded="true"],
+.list-unstyled .list-group-item {
+    background-color: #e0e0e0;
+}
+
+.skills a[aria-expanded="true"]:hover{
+    background-color: #c0c0c0;
+}
+
+.card,
+.list-group-item {
+    border-color: #31373d;
+    color: #1a1d22;
+}
+
+.active-page{
+    border-left-color:#1a1d22;
+    background-color: #c0c0c0;
+}
+
+/* --------------------------------------------
+ABOUT MENU
+-------------------------------------------- */
+#aboutItem{
+    border-color: #31373d;
+}
+
+#aboutContent hr {
+    color: #000;
+}
+
+.devicon:hover,
+#aboutContent a:hover{
+    color: #1a1d22;
+}
+
+.content-title-2,
+.content-title-3,
+.devicon,
+.project-date {
+    color: #606161;
+}
+
+.certificationLegend p{
+    color: #1a1d22;
+}
+
+/* --------------------------------------------
+SCROLLBAR
+-------------------------------------------- */
+.scrollbar-color::-webkit-scrollbar-track,
+.scrollbar-color::-webkit-scrollbar {
+    background-color: #e9e9e9;
+}
+    
+.scrollbar-color::-webkit-scrollbar-thumb {
+    background-color: #1b2127;
+}
+
+/* --------------------------------------------
+BALLOON
+-------------------------------------------- */
+.back-to-top {
+    background-color: #fff;
+    color: #1a1d22;
+    -webkit-box-shadow: 0 0 10px 0 #31373d;
+    box-shadow: 0 0 10px 0 #31373d;
+}
+
+.back-to-top:hover{
+    background-color: #606161;
+}
+
+/* --------------------------------------------
+FOOTER
+-------------------------------------------- */     
+footer {
+    background-color: #606161;
+    color: #fff;
+}
+
+.foot-link{
+    color: #fff;
+}
+
+.foot-link:hover{
+    color:#1a1d22;;
+}
+
+.foot-social-networks ul li a:hover{
+    color:#1a1d22;
+}
+
+/* --------------------------------------------
+DEVICES
+-------------------------------------------- */
+@media (max-width: 767px) {
+    .box img{
+        -webkit-box-shadow: 0 0 0 2rem  #e9e9e9;
+        box-shadow: 0 0 0 2rem  #e9e9e9;
+    }
+}

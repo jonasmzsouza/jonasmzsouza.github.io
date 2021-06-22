@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body {
+    font-family: "Source Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+/* --------------------------------------------
+NAVBAR
+-------------------------------------------- */
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+a,
+.nav-link{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.brand svg{
+    margin: 12px;
+ }
+
+.nav-link{
+    font-weight: bold;
+}
+
+#btnLanguage {
+    width: 90px;
+}
+
+#btnLanguage:hover{
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+header ul,
+.about-menu ul,
+footer ul {
+    list-style: none;
+}
+
+.page-settings ul,
+.nav-social-networks ul{
+    padding: 0;
+    margin: 0;
+}
+.nav-social-networks{
+    margin-right: 30px;
+}
+
+.page-settings ul{
+    display: flex;
+    align-items: center;
+}
+
+.page-settings span,
+.nav-social-networks span{
+    font-size: 25px;
+}
+
+.active-light{
+    color: #ff0;
+}
+
+#btnLight span{
+    font-size: 20px;
+}
+
+/* --------------------------------------------
+APRESENTATION
+-------------------------------------------- */
+.box {
+    height: 90vh;
+    background-image: url(../assets/images/technology.jpg);
+    background-origin:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 10px;
+    border-top: 1px solid; /*needed to fix image stretch problem caused by border-radius*/
+}
+
+.box img{
+    width: 15vw;
+    min-width: 100px;
+    border-radius: 50%;
+}
+
+.apresentation {
+    width: 100%;
+    height: 10rem;
+    min-height: 100px;
+    animation: anime 1.5s linear;
+}
+
+.apresentation-content {
+    margin-left: 60px;
+    z-index: 2;
+}
+
+.apresentation-name {
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: anime 1.5s linear;
+}
+
+.apresentation-title{
+    font-weight: bold;
+    animation: anime 1.5s linear;
+}
+
+@keyframes anime {
+    0% {
+        font-size: 0;
+        opacity: 0;
+    }
+}
+
+/* --------------------------------------------
+ABOUT MENU
+-------------------------------------------- */
+#about {
+    padding: 30px 0;
+}
+
+#about li {
+    padding: 0;
+}
+
+#about li a{
+    margin: 0;
+    padding: 10px;
+}
+
+.card-header{
+    font-weight: bold;
+}
+
+.list-unstyled li {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.card,
+.list-group-item {
+    background-color: transparent;
+}
+
+.active-page{
+    border-left: 3px solid;
+}
+
+/* --------------------------------------------
+ABOUT ITEM
+-------------------------------------------- */
+#aboutItem{
+    padding: 0;
+    margin: 0;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.about-item-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content-title-1,
+.content-title-2,
+.content-title-3 {
+    margin-bottom: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.content-title-1{
+    font-size: 22px;
+}
+
+.content-title-2 {
+    font-size: 18px;
+}
+
+.content-title-3 {
+    font-size: 14px;
+}
+
+.content-description {
+    margin-bottom: 40px;
+}
+
+.content-link:hover{
+    text-decoration: underline;
+}
+
+.soft-skills-title{
+    width: 190px;
+}
+
+.languages-box{
+    margin-bottom: 40px;  
+}
+
+.devicon-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.devicon{
+    width: 100px;
+    height: 90px;
+    padding: 5px;
+    text-align: center;
+}
+
+.devicon span{
+    font-size: 40px;
+}
+
+.devicon p{
+    margin: 0;
+    padding-top: 5px;
+    font-family: "Source Sans", sans-serif;
+    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.certificationLegend {
+    margin-bottom: 20px;
+}
+
+.certificationLegend span,
+.certificationItem span {
+    width: 20px;
+}
+
+.certificationItem {
+    height: auto;
+}
+
+.certificationLegend p,
+.certificationItem a{
+    margin-left: 10px;
+}
+
+/* --------------------------------------------
+PORTFOLIO
+-------------------------------------------- */
+.card img{
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+}
+
+.card-footer{
+    border: none;
+}
+
+#portfolio{
+    font-weight: bold;
+}
+
+#portfolio,
+#portfolioContent{
+    padding: 0 50px;
+}
+
+#portfolioContent .card{
+    transition: 0.5s;
+}
+
+#portfolioContent .card:hover{
+    transform: translateY(-10px);
+}
+
+#portfolioContent .card-title{
+    font-weight: 700;
+}
+
+.project-date {
+    font-weight: bold;
+}
+
+/* --------------------------------------------
+SCROLLBAR
+-------------------------------------------- */
+.scrollbar {
+    height: 60vh;
+    overflow: auto;
+    padding: 20px;
+    line-height: 1.8rem;
+}
+    
+.scrollbar-color::-webkit-scrollbar-track,
+.scrollbar-color::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 0 2px 2px 0;
+}
+    
+.scrollbar-color::-webkit-scrollbar-thumb {
+    border-radius: 0 2px 2px 0;
+}
+
+/* --------------------------------------------
+BALLOON
+-------------------------------------------- */
+.back-to-top {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    box-shadow: 0 0 10px 0;
+}
+
+.back-to-top:hover{
+    transition: 0.5s;
+}
+
+/* --------------------------------------------
+FOOTER
+-------------------------------------------- */     
+footer {
+    padding: 10px 0;
+    height: 30vh auto;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+
+footer .list-group-item{
+    border: none;
+}
+
+.foot-link:hover{
+    text-decoration: underline;
+}
+
+.foot-social-networks {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+.foot-social-networks ul{
+    padding: 0;
+    margin: 0;
+}
+
+.foot-social-networks ul li a{
+    margin: 10px;
+}
+
+/* --------------------------------------------
+DEVICES
+-------------------------------------------- */
+@media (max-width: 1399px) {
+    #portfolio,
+    #portfolioContent{
+        padding: 0;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-collapse{
+        padding: 0 10px; 
+    }
+
+    .box-apresentation {
+        padding: 0;
+    }
+
+    .apresentation {
+        height: 5rem;
+    }
+
+    .apresentation-content {
+        margin-left: 30px;
+    }
+
+    .apresentation-name {
+        letter-spacing: 0;
+        font-size: 1.2rem;
+    }
+
+    .apresentation-title{
+        font-size: 0.7rem;
+    }
+
+    #about {
+        flex-direction: column;
+    }
+    
+    .about-menu{
+        margin-bottom: 1.5rem;
+    }
+
+    .about-item-title{
+        font-size: 24px;
+    }
+
+    .soft-skills-title{
+        font-size: 14px;
+    }    
+
+    .certificationLegend {
+        flex-direction: column;
+    }
+
+    .certificationItem {
+        height: auto;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #41464b6d;
+    }
+
+    .scrollbar{
+        height: 80vh;
+    }
+
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+}

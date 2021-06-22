@@ -1,0 +1,273 @@
+{
+	"profile": [{
+		"name": "Jonas Muniz de Souza",
+		"location": "Itapevi/SP",
+		"email": "jonasmzsouza@gmail.com",
+		"description": "Married, son of a Northeastern father and a Southern mother, I was born and raised in the West Zone of the Metropolitan Region of São Paulo. \n It was during high school that the opportunity arose to have the first contact with computers through courses. From then onwards I awakened the passion for technology which led me to training in Information Systems where I had initial experiences with web development. \n After nearly three years of experience in technical support, I embraced the opportunity in a new challenge acting as an administrative analyst in retail trade, in which I performed computer maintenance and managed social networks, among other tasks, and, in parallel, I got freelance experiences in Web Design developing static websites in html and css, posters, banners, flyers, folders and art for religious organizations. \n In order to gain knowledge and experience of new technologies and the market, I sought a new training in Technology in Systems Analysis and Development with the hands-on model in experience in the area of ​​information technology. \n I currently develop web projects (HTML, CSS, SASS, Bootstrap, JavaScript, jQuery), in addition to knowledge in database (MySQL, Oracle SQL), other languages ​​(Python, Java, PHP), tools (Figma, Node-RED, Eclipse, VSCode) and development methodologies (Scrum, MVC, UML). \n In addition to web development, my passion extends to discovering places linked to nature, animals, culture and music where I play guitar, keyboard and make compositions."
+	}],
+	"education": [{
+			"school": "Faculdade de Informática e Administração Paulista - FIAP",
+			"degree": "Technologist",
+			"fieldOfStudy": "Technology in Systems Analysis and Development",
+			"location": "São Paulo/SP",
+			"timeCourse": {
+				"startDate": "February 2020",
+				"endDate": "December 2021"
+			},
+			"description": ""
+		},
+		{
+			"school": "Universidade Paulista - UNIP",
+			"degree": "Bachelor Degree",
+			"fieldOfStudy": "Information Systems",
+			"location": "Santana de Parnaíba/SP",
+			"timeCourse": {
+				"startDate": "February 2006",
+				"endDate": "December 2009"
+			},
+			"description": "Final work in commercial automation system. Sales and inventory management for microenterprises."
+		}
+	],
+	"experience": [{
+			"title": "Administrative Analyst",
+			"company": "Magdiel Modas LTDA ME",
+			"location": "Itapevi/SP",
+			"timeCourse": {
+				"startDate": "December 2010",
+				"endDate": "February 2020"
+			},
+			"description": "Responsible for managing accounts payable and receivable. \n Responsible for the registration of products and suppliers. \n Responsible for issuing, organizing invoices and managing certificates. \n Responsible for the website, social networks, IT maintenance, search and implementation of automation improvements. \n Perfomance in communication and marketing creating graphic design and campaigns. \n Perfomance in materials management and inventory control. \n Perfomance in organization and development of documentation and processes. \n Perfomance in front of the cashier and customer service."
+		},
+		{
+			"title": "Service Desk Assistant",
+			"company": "Capgemini Brasil S.A.",
+			"location": "Barueri/SP",
+			"timeCourse": {
+				"startDate": "February 2008",
+				"endDate": "September 2010"
+			},
+			"description": "Customer: Net Serviços. Perfomance in the reception, registration and follow-up of service calls, monitoring the status of all registered calls, escalation and forwarding to other areas of the organization, determination and resolution of first-level technical problems (incidents and requests), closing of incidents and confirmation with the client, documentation and development of procedures. At times I was responsible for training and assisting technical level professionals."
+		},
+		{
+			"title": "Volunteer Basic Informatics Instructor",
+			"company": "E.E. Padre Giuseppe Angelo Bertolli",
+			"location": "Jandira/SP",
+			"timeCourse": {
+				"startDate": "April 2006",
+				"endDate": "June 2007"
+			},
+			"description": "I taught Basic Computer classes (Computer Concepts, Windows Operating System, Microsoft Office Package and Internet), prepared teaching material and managed teams as part of complementary activities on weekends with the Escola da Família Program."
+		}
+	],
+	"skills": [{
+		"languages": [{
+				"language": "English",
+				"proficiency": "Basic"
+			}
+		],
+		"markupProgramming": [{
+				"skill": "HTML5",
+				"icon": "devicon-html5-plain"
+			},
+			{
+				"skill": "CSS3",
+				"icon": "devicon-css3-plain"
+			},
+			{
+				"skill": "Bootstrap",
+				"icon": "devicon-bootstrap-plain"
+			},
+			{
+				"skill": "SASS",
+				"icon": "devicon-sass-plain"
+			},
+			{
+				"skill": "JavaScript",
+				"icon": "devicon-javascript-plain"
+			},
+			{
+				"skill": "jQuery",
+				"icon": "devicon-jquery-plain"
+			},
+			{
+				"skill": "Java",
+				"icon": "devicon-java-plain"
+			},
+			{
+				"skill": "Python",
+				"icon": "devicon-python-plain"
+			},
+			{
+				"skill": "PHP",
+				"icon": "devicon-php-plain"
+			},
+			{
+				"skill": "React",
+				"icon": "devicon-react-plain"
+			},
+			{
+				"skill": "MySQL",
+				"icon": "devicon-mysql-plain"
+			},
+			{
+				"skill": "Oracle",
+				"icon": "devicon-oracle-plain"
+			}
+		],
+		"tools": [{
+				"title": "Git",
+				"icon": "devicon-git-plain"
+			},
+			{
+				"title": "GitHub",
+				"icon": "devicon-github-plain"
+			},
+			{
+				"title": "Photoshop",
+				"icon": "devicon-photoshop-plain"
+			},
+			{
+				"title": "Trello",
+				"icon": "devicon-trello-plain"
+			},
+			{
+				"title": "Figma",
+				"icon": "devicon-figma-plain"
+			}
+		]
+	}],
+	"certification": [{
+			"degreeType": "course",
+			"school": "Udemy",
+			"fieldOfStudy": "Complete WEB Development",
+			"degreeUrl": "https://drive.google.com/file/d/1BIhUz5gi-O46Yrj6K8WpBpcbpk5f22oW/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "iOS development",
+			"degreeUrl": "https://drive.google.com/file/d/1WX0AdLPQHzLo0Y8KsU9HHNcI2BJJGuUO/view?usp=sharing"
+		},
+		{
+			"degreeType": "graduation",
+			"school": "FIAP",
+			"fieldOfStudy": "Professional Qualification Certificate in Web 2.0 Developer and Designer",
+			"degreeUrl": "https://drive.google.com/file/d/1I2TSiJ9_4ZcyISbRIQ49ZXdmrqFzTyn0/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Customer Experience Mangement",
+			"degreeUrl": "https://drive.google.com/file/d/107teZ3TC7tFUBmp8iHSuWM79Ec0dD6IE/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "User Experience",
+			"degreeUrl": "https://drive.google.com/file/d/1nrHMhCcj8XZD7NtdmIdQMyB452zeGSsw/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Emerging Technological Solutions",
+			"degreeUrl": "https://drive.google.com/file/d/1Dv-18chtOe1IXNcwBHn1uQ0n9cpo3rN-/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Digital Data Science",
+			"degreeUrl": "https://drive.google.com/file/d/1h-AMOPiBO9Erl2r5vjycF7HtsLEqRRhc/view?usp=sharing"
+		},
+		{
+			"degreeType": "graduation",
+			"school": "FIAP",
+			"fieldOfStudy": "Professional Qualification Certificate in System Analysis and Web Prototyping",
+			"degreeUrl": "https://drive.google.com/file/d/1z4GY-pLMzB2ANJpSPc7b-UMTBMSIO9TF/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Python",
+			"degreeUrl": "https://drive.google.com/file/d/1Cdx8dMSyCas5WFDrOSwt_P3mIDmbFHd2/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Design Thinking",
+			"degreeUrl": "https://drive.google.com/file/d/1iFpl9qP_4XBC0ckGO9iZfGkrX4dOxDAN/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "Bradesco Foundation",
+			"fieldOfStudy": "Managing Database",
+			"degreeUrl": "https://drive.google.com/file/d/13Q5KizG3Y3ZrOxE0GCNfwVO0Q8b9Qdt3/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "Bradesco Foundation",
+			"fieldOfStudy": "Implementing Database",
+			"degreeUrl": "https://drive.google.com/file/d/18ooj2Vj52otRF_PJyS2euCjpdmSAbGQ2/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "Bradesco Foundation",
+			"fieldOfStudy": "Data Modeling",
+			"degreeUrl": "https://drive.google.com/file/d/1PF1reH-EATsfjTC_82xqgfeztU9ttU3b/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "Microcamp",
+			"fieldOfStudy": "Web",
+			"degreeUrl": "https://drive.google.com/file/d/1AuxvU4II9MQuiniCZn90MvUxcBNNvcu5/view?usp=sharing"
+		},
+		{
+			"degreeType": "certification",
+			"school": "EXIN",
+			"fieldOfStudy": "ITIL Certificate in IT Service Management - v2",
+			"degreeUrl": "https://drive.google.com/file/d/1EB_75Qwt3ixB4tuzzIeKFybLl5JCxiXq/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "CPMBraxis Xtraining Academy",
+			"fieldOfStudy": "ITIL Foundation",
+			"degreeUrl": "https://drive.google.com/file/d/1GXR0Thh-0ar0DTESo6JOLkI0MXf8Os8D/view?usp=sharing"
+		},
+		{
+			"degreeType": "graduation",
+			"school": "UNIP",
+			"fieldOfStudy": "Bachelor in Information Systems",
+			"degreeUrl": "https://drive.google.com/file/d/1odOuzzH39Poi7d_5AnGSVIVGcc3ccPv_/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "Various",
+			"fieldOfStudy": "Other Certificates from 2005 to date",
+			"degreeUrl": "https://drive.google.com/drive/folders/1E0xCAAI2Vj0q71xzyu5DyhHsvbltaEX3?usp=sharing"
+		}
+	],
+	"portfolio": [{
+			"title": "SGP - Presentation",
+			"imageSrc": "./assets/images/p003-sgp.jpg",
+			"txtAlt": "SGP - Presentation",
+			"siteUrl": "sgp-presentation",
+			"description": "SGP (Skill Goal Professional) - It is a landing page developed with HTML5/CSS3 presentation for the 1st Sprint of Challenge B2W with the theme: Employee Experience. The Challenge with B2W is part of an evaluation of the 1st year of Technology in System Analysis and Development at FIAP",
+			"dateRelease": "06/07/2020"
+		},
+		{
+			"title": "Coronapp",
+			"imageSrc": "./assets/images/p002-coronapp.jpg",
+			"txtAlt": "Coronapp - Solidary Delivery",
+			"siteUrl": "coronapp",
+			"description": "Coronapp - Solidary Delivery - It is a landing page developed with HTML5/CSS3 about the Corona Challenge for the second evaluation of the Responsive Web Development course of the Technology in Analysis and System Development course at FIAP. The Corona Challenge consists of presenting a solution to the impacts caused by Covid-19.",
+			"dateRelease": "05/31/2020"
+		},
+		{
+			"title": "Filmov",
+			"imageSrc": "./assets/images/p001-filmov.jpg",
+			"txtAlt": "Filmov",
+			"siteUrl": "filmov",
+			"description": "A website for Movies and Series developed using only HTML5/CSS3 for the first evaluation of the Responsive Web Development discipline of the Technology Analysis and System Development course at FIAP.",
+			"dateRelease": "05/04/2020"
+		}
+	]
+}
