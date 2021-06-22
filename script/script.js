@@ -172,6 +172,7 @@ $(btnLight).click(() => {
 	activeLight ? toggleIcon(span, moon, sun) : toggleIcon(span, sun, moon);
 	let theme = activeLight ? 'light' : 'dark';
 	$(dataTheme).attr('href', 'css/' + theme + '.css');
+	navCollapsed();
 });
 
 /*

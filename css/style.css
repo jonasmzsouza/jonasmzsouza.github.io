@@ -387,6 +387,10 @@ DEVICES
         padding: 0 10px; 
     }
 
+    .box {
+        background-attachment: scroll;
+    }
+
     .box-apresentation {
         padding: 0;
     }
