@@ -76,7 +76,7 @@ function getGeneralData() {
  */
 function fileJSON(){
 	let currentLanguage = script.getCurrentLanguage();
-	let fileJSON = './assets/json/data-' + currentLanguage + '.json'
+	let fileJSON = './assets/json/data-' + currentLanguage + '.json';
 	return fileJSON;
 }
 
@@ -89,7 +89,7 @@ function getPortfolioData() {
 	xmlHttp.open('GET', fileJSON())
 	xmlHttp.onreadystatechange = () => {
 		if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-			let JSONData = xmlHttp.responseText
+			let JSONData = xmlHttp.responseText;
 			let objJSONData = JSON.parse(JSONData);
 			let objJSONDataPage = objJSONData['portfolio'];
 			getPortfolio(objJSONDataPage);
@@ -109,40 +109,41 @@ function getPortfolioData() {
 function getPortfolio(objJSONDataPage) {
 	let isDefaultLanguage = script.isDefaultLanguage();
 	let dataDescription = isDefaultLanguage ? "Data de desenvolvimento: " : "Development date: ";
-	const root = 'https://jonasmzsouza.github.io/'
+	const root = 'https://jonasmzsouza.github.io/';
 
 	for (let i in objJSONDataPage) {
 		let pageItem = objJSONDataPage[i];
 
-		let cardImgTop = document.createElement('img')
-		cardImgTop.setAttribute('src', pageItem.imageSrc)
-		cardImgTop.setAttribute('alt', pageItem.txtAlt)
+		let cardImgTop = document.createElement('img');
+		cardImgTop.setAttribute('src', pageItem.imageSrc);
+		cardImgTop.setAttribute('alt', pageItem.txtAlt);
 
 		let cardTitle =  elementData('h4', pageItem.title, 'card-title');
 		let cardText = elementData('p', pageItem.description, 'card-text');
 
-		let cardBody = elementData('div', '', 'card-body')
-		cardBody.appendChild(cardTitle)
-		cardBody.appendChild(cardText)
+		let cardBody = elementData('div', '', 'card-body');
+		cardBody.appendChild(cardTitle);
+		cardBody.appendChild(cardText);
 
-		let projectDate = elementData('small', dataDescription + pageItem.dateRelease, 'project-date')
+		let projectDate = elementData('small', dataDescription + pageItem.dateRelease, 'project-date');
 
 		let cardFooter = elementData('div', '', 'card-footer');
-		cardFooter.appendChild(projectDate)
+		cardFooter.appendChild(projectDate);
 
 		let card = elementData('div', '', 'card h-100');
-		card.appendChild(cardImgTop)
-		card.appendChild(cardBody)
-		card.appendChild(cardFooter)
+		card.appendChild(cardImgTop);
+		card.appendChild(cardBody);
+		card.appendChild(cardFooter);
 
-		let cardLink = document.createElement('a')
-		cardLink.setAttribute('href', root + pageItem.siteUrl)
-		cardLink.setAttribute('target', '_blank')
-		cardLink.setAttribute('alt', pageItem.txtAlt)
+		let cardLink = document.createElement('a');
+		cardLink.setAttribute('href', root + pageItem.siteUrl);
+		cardLink.setAttribute('rel', 'noopener noreferrer');
+		cardLink.setAttribute('target', '_blank');
+		cardLink.setAttribute('alt', pageItem.txtAlt);
 		cardLink.appendChild(card);
 		
-		let col = elementData('div', '', 'col')
-		col.appendChild(cardLink)
+		let col = elementData('div', '', 'col');
+		col.appendChild(cardLink);
 
 		$('#portfolioContent').append(col);
 	}
@@ -192,10 +193,10 @@ function getPageData(page) {
 	xmlHttp.send();
 }
 
-const classTitle1 = 'content-title-1'
-const classTitle2 = 'content-title-2'
-const classTitle3 = 'content-title-3'
-const classDescription = 'content-description'
+const classTitle1 = 'content-title-1';
+const classTitle2 = 'content-title-2';
+const classTitle3 = 'content-title-3';
+const classDescription = 'content-description';
 
 /*
  * Function that creates an HTML element and assigns a content and class
@@ -233,8 +234,8 @@ function getProfile(objJSONDataPage, page) {
 		let pageItem = objJSONDataPage[i];
 
 		let aEmail = document.createElement('a');
-		aEmail.setAttribute('href', 'mailto:' + pageItem.email)
-		aEmail.classList.add(classTitle3, 'content-link')
+		aEmail.setAttribute('href', 'mailto:' + pageItem.email);
+		aEmail.classList.add(classTitle3, 'content-link');
 		aEmail.textContent = pageItem.email;
 
 		aboutContent.appendChild(elementData('p', pageItem.name, classTitle1));
@@ -286,8 +287,8 @@ function getExperience(objJSONDataPage, page) {
 		aboutContent.appendChild(elementData('p', pageItem.location, classTitle3));
 		aboutContent.appendChild(elementData('p', pageItem.timeCourse.startDate + ' - ' + 
 													pageItem.timeCourse.endDate, classTitle3));
-		let str = pageItem.description
-		let description = str.split("\n")
+		let str = pageItem.description;
+		let description = str.split("\n");
 		let ul = document.createElement('ul');
 		for(let p in description) {
 			let li = document.createElement('li');
@@ -390,10 +391,11 @@ function getCertification(objJSONDataPage, page) {
 		let pageItem = objJSONDataPage[i];
 		
 		let link = document.createElement('a');
-		link.setAttribute('href', pageItem.degreeUrl)
-		link.setAttribute('target', '_blank')
-		link.setAttribute('alt', pageItem.school)
-		link.classList.add(classTitle3, 'content-link')
+		link.setAttribute('href', pageItem.degreeUrl);
+		link.setAttribute('rel', 'noopener noreferrer');
+		link.setAttribute('target', '_blank');
+		link.setAttribute('alt', pageItem.school);
+		link.classList.add(classTitle3, 'content-link');
 		link.textContent = " " + pageItem.fieldOfStudy + ' - ' + pageItem.school;
 
 		let icon = pageItem.degreeType == 'certification' ? 
