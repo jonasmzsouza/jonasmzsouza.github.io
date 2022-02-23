@@ -54,7 +54,7 @@
 			"location": "Jandira/SP",
 			"timeCourse": {
 				"startDate": "April 2006",
-				"endDate": "June 2007"
+				"endDate": "November 2007"
 			},
 			"description": "I taught Basic Computer classes (Computer Concepts, Windows Operating System, Microsoft Office Package and Internet), prepared teaching material and managed teams as part of complementary activities on weekends with the Escola da Família Program."
 		}
@@ -136,7 +136,40 @@
 			}
 		]
 	}],
-	"certification": [{
+	"certification": [
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "WordPress in Practice",
+			"degreeUrl": "https://drive.google.com/file/d/1k3fRdRg0cGKABcy7Fz2GrBiKkjEqe-6f/view?usp=sharing"
+		},{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Patterns & Frameworks Trends",
+			"degreeUrl": "https://drive.google.com/file/d/1ArNdW-rKZinPvjSfCPekQsF1UJpNgd6I/view?usp=sharing"
+		},{
+			"degreeType": "certification",
+			"school": "FIAP",
+			"fieldOfStudy": "Professional Qualification Certificate in Strategy and Technological Innovation with AI and IoT applications",
+			"degreeUrl": "https://drive.google.com/file/d/1mbSbOw5nuEzksSR-VfKdiuA-rK47IVpT/view?usp=sharing"
+		},{
+			"degreeType": "certification",
+			"school": "FIAP",
+			"fieldOfStudy": "Professional Qualification Certificate in Mobile Application Developer",
+			"degreeUrl": "https://drive.google.com/file/d/1Ued5tvm8XYyzRK0zBEtzuRx2dHT02y6L/view?usp=sharing"
+		},{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Services Architeture, API and Mobile Architeture",
+			"degreeUrl": "https://drive.google.com/file/d/1PAJ7nxGkcaZo7fMLeWMvfNMZxoaW_YG6/view?usp=sharing"
+		},
+		{
+			"degreeType": "course",
+			"school": "FIAP",
+			"fieldOfStudy": "Android Development",
+			"degreeUrl": "https://drive.google.com/file/d/155JC23npKukOIXW6IyHYAnN1w5VuIWpj/view?usp=sharing"
+		},
+		{
 			"degreeType": "course",
 			"school": "Udemy",
 			"fieldOfStudy": "Complete WEB Development",
@@ -145,14 +178,14 @@
 		{
 			"degreeType": "course",
 			"school": "FIAP",
-			"fieldOfStudy": "iOS development",
+			"fieldOfStudy": "iOS Development",
 			"degreeUrl": "https://drive.google.com/file/d/1WX0AdLPQHzLo0Y8KsU9HHNcI2BJJGuUO/view?usp=sharing"
 		},
 		{
-			"degreeType": "graduation",
+			"degreeType": "certification",
 			"school": "FIAP",
 			"fieldOfStudy": "Professional Qualification Certificate in Web 2.0 Developer and Designer",
-			"degreeUrl": "https://drive.google.com/file/d/1I2TSiJ9_4ZcyISbRIQ49ZXdmrqFzTyn0/view?usp=sharing"
+			"degreeUrl": "https://drive.google.com/file/d/1i_T_OJMoHBJyPH1q6Ud-qV_okpBBVW3j/view?usp=sharing"
 		},
 		{
 			"degreeType": "course",
@@ -179,7 +212,7 @@
 			"degreeUrl": "https://drive.google.com/file/d/1h-AMOPiBO9Erl2r5vjycF7HtsLEqRRhc/view?usp=sharing"
 		},
 		{
-			"degreeType": "graduation",
+			"degreeType": "certification",
 			"school": "FIAP",
 			"fieldOfStudy": "Professional Qualification Certificate in System Analysis and Web Prototyping",
 			"degreeUrl": "https://drive.google.com/file/d/1z4GY-pLMzB2ANJpSPc7b-UMTBMSIO9TF/view?usp=sharing"
@@ -198,24 +231,6 @@
 		},
 		{
 			"degreeType": "course",
-			"school": "Bradesco Foundation",
-			"fieldOfStudy": "Managing Database",
-			"degreeUrl": "https://drive.google.com/file/d/13Q5KizG3Y3ZrOxE0GCNfwVO0Q8b9Qdt3/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "Bradesco Foundation",
-			"fieldOfStudy": "Implementing Database",
-			"degreeUrl": "https://drive.google.com/file/d/18ooj2Vj52otRF_PJyS2euCjpdmSAbGQ2/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "Bradesco Foundation",
-			"fieldOfStudy": "Data Modeling",
-			"degreeUrl": "https://drive.google.com/file/d/1PF1reH-EATsfjTC_82xqgfeztU9ttU3b/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
 			"school": "Microcamp",
 			"fieldOfStudy": "Web",
 			"degreeUrl": "https://drive.google.com/file/d/1AuxvU4II9MQuiniCZn90MvUxcBNNvcu5/view?usp=sharing"
@@ -225,12 +240,6 @@
 			"school": "EXIN",
 			"fieldOfStudy": "ITIL Certificate in IT Service Management - v2",
 			"degreeUrl": "https://drive.google.com/file/d/1EB_75Qwt3ixB4tuzzIeKFybLl5JCxiXq/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "CPMBraxis Xtraining Academy",
-			"fieldOfStudy": "ITIL Foundation",
-			"degreeUrl": "https://drive.google.com/file/d/1GXR0Thh-0ar0DTESo6JOLkI0MXf8Os8D/view?usp=sharing"
 		},
 		{
 			"degreeType": "graduation",
