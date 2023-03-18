@@ -208,6 +208,30 @@
   "certification": [
     {
       "degreeType": "course",
+      "school": "DIO",
+      "fieldOfStudy": "TypeScript Fullstack Developer Training",
+      "degreeUrl": "https://drive.google.com/file/d/1fSBpBUIrBF8mhGzbx-1J8fyc-JSjR9yh/view?usp=share_link"
+    },
+    {
+      "degreeType": "graduation",
+      "school": "FIAP",
+      "fieldOfStudy": "Technologist in Systems Analysis and Development",
+      "degreeUrl": "https://drive.google.com/file/d/1KvA_DaHuqolnWj5VjmSLCTmnksXMw9Tl/view?usp=share_link"
+    },
+    {
+      "degreeType": "course",
+      "school": "DevSuperior",
+      "fieldOfStudy": "Bootcamp React Edition 3.0",
+      "degreeUrl": "https://drive.google.com/file/d/1LUMZDMlxpJp7ah2D_EIgN6fIv1glXs7d/view?usp=share_link"
+    },
+    {
+      "degreeType": "course",
+      "school": "DevSuperior",
+      "fieldOfStudy": "Bootcamp Spring Edition 3.0",
+      "degreeUrl": "https://drive.google.com/file/d/1-ITesxDoweCDUvTyWt9fzTByN629vjL6/view?usp=share_link"
+    },
+    {
+      "degreeType": "course",
       "school": "FIAP",
       "fieldOfStudy": "WordPress in Practice",
       "degreeUrl": "https://drive.google.com/file/d/1k3fRdRg0cGKABcy7Fz2GrBiKkjEqe-6f/view?usp=sharing"
