@@ -1,281 +1,323 @@
 {
-	"profile": [{
-		"name": "Jonas Muniz de Souza",
-		"location": "Itapevi/SP",
-		"email": "jonasmzsouza@gmail.com",
-		"description": "Casado, filho de pai nordestino e mãe sulista, nasci e cresci na Zona Oeste da Região Metropolitana de São Paulo. \n Foi durante o ensino médio que surgiu a oportunidade de ter o primeiro contato com a informática através de cursos. A partir de então despertei a paixão pela tecnologia o que me levou a formação em Sistemas de Informação onde obtive experiências iniciais com o desenvolvimento web. \n Após quase três anos de experiência em suporte técnico, abracei a oportunidade em um novo desafio exercendo a função de analista administrativo em um comércio de varejo, no qual realizava manutenções de informática e administrava as redes sociais, entre outras tarefas, e, em paralelo, obtive experiências freelance em Web Design desenvolvendo sites estáticos em html e css, cartazes, banners, flyers, folders e artes para organizações religiosas. \n Com o objetivo de adquirir conhecimento e experiência de novas tecnologias e de mercado, busquei uma nova formação em Tecnologia em Análise e Desenvolvimento de Sistemas com o modelo hands-on em vivência na área da tecnologia da informação. \n Atualmente desenvolvo projetos web (HTML, CSS, SASS, Bootstrap, JavaScript, jQuery), além de conhecimentos em banco de dados (MySQL, Oracle SQL), outras linguagens (Python, Java, PHP), ferramentas (Figma, Node-RED, Eclipse, VSCode) e metodologias de desenvolvimento (Scrum, MVC, UML). \n Além do desenvolvimento web, a minha paixão se estende em conhecer lugares ligados à natureza, animais, cultura e pela música onde toco violão, teclado e faço composições."
-	}],
-	"education": [{
-			"school": "Faculdade de Informática e Administração Paulista - FIAP",
-			"degree": "Tecnólogo",
-			"fieldOfStudy": "Tecnologia em Análise e Desenvolvimento de Sistemas",
-			"location": "São Paulo/SP",
-			"timeCourse": {
-				"startDate": "Fevereiro 2020",
-				"endDate": "Dezembro 2021"
-			},
-			"description": ""
-		},
-		{
-			"school": "Universidade Paulista - UNIP",
-			"degree": "Bacharelado",
-			"fieldOfStudy": "Sistemas de Informação",
-			"location": "Santana de Parnaíba/SP",
-			"timeCourse": {
-				"startDate": "Fevereiro 2006",
-				"endDate": "Dezembro 2009"
-			},
-			"description": "Trabalho de conclusão de curso sobre sistema de automação comercial. Gestão de vendas e estoque para microempresas."
-		}
-	],
-	"experience": [{
-			"title": "Analista Administrativo",
-			"company": "Magdiel Modas LTDA ME",
-			"location": "Itapevi/SP",
-			"timeCourse": {
-				"startDate": "Dezembro 2010",
-				"endDate": "Fevereiro 2020"
-			},
-			"description": "Responsável pela administração de contas a pagar e receber. \n Responsável pelo cadastro de produtos e fornecedores. \n Responsável pela emissão, organização de notas fiscais e gerenciamento de certificados. \n Responsável pelo website, redes sociais, manutenção em informática, busca e execução de melhorias em automação. \n Atuação em comunicação e marketing criando design gráficos e campanhas. \n Atuação em administração de materiais e controle de estoque. \n Atuação em organização e desenvolvimento de documentações e processos. \n Atuação em frente de caixa e atendimento ao cliente."
-		},
-		{
-			"title": "Assistente de Service Desk",
-			"company": "Capgemini Brasil S.A.",
-			"location": "Barueri/SP",
-			"timeCourse": {
-				"startDate": "Fevereiro 2008",
-				"endDate": "Setembro 2010"
-			},
-			"description": "Cliente: Net Serviços. Atuação na recepção, registro e acompanhamento de chamados de serviços, monitoramento da situação de todos os chamados registrados, escalonamento e encaminhamento para outras áreas da organização, determinação e resolução de problemas técnicos de primeiro nível (incidentes e requisições), fechamento dos incidentes e confirmação com o cliente, documentação e desenvolvimento de procedimentos. Em alguns momentos fui responsável pelo treinamento e auxílio dos profissionais do nível técnico."
-		},
-		{
-			"title": "Instrutor Voluntário de Informática Básica",
-			"company": "E.E. Padre Giuseppe Angelo Bertolli",
-			"location": "Jandira/SP",
-			"timeCourse": {
-				"startDate": "Abril 2006",
-				"endDate": "Novembro 2007"
-			},
-			"description": "Lecionei aulas de Informática Básica (Conceitos de informática, Sistema Operacional Windows, Pacote Microsoft Office e Internet), elaborei material didático e gerenciei turmas como parte de atividades complementares aos finais de semana junto ao Programa Escola da Família."
-		}
-	],
-	"skills": [{
-		"languages": [{
-				"language": "Inglês",
-				"proficiency": "Básico"
-			}
-		],
-		"markupProgramming": [{
-				"skill": "HTML5",
-				"icon": "devicon-html5-plain"
-			},
-			{
-				"skill": "CSS3",
-				"icon": "devicon-css3-plain"
-			},
-			{
-				"skill": "Bootstrap",
-				"icon": "devicon-bootstrap-plain"
-			},
-			{
-				"skill": "SASS",
-				"icon": "devicon-sass-plain"
-			},
-			{
-				"skill": "JavaScript",
-				"icon": "devicon-javascript-plain"
-			},
-			{
-				"skill": "jQuery",
-				"icon": "devicon-jquery-plain"
-			},
-			{
-				"skill": "Java",
-				"icon": "devicon-java-plain"
-			},
-			{
-				"skill": "Python",
-				"icon": "devicon-python-plain"
-			},
-			{
-				"skill": "PHP",
-				"icon": "devicon-php-plain"
-			},
-			{
-				"skill": "React",
-				"icon": "devicon-react-plain"
-			},
-			{
-				"skill": "MySQL",
-				"icon": "devicon-mysql-plain"
-			},
-			{
-				"skill": "Oracle",
-				"icon": "devicon-oracle-plain"
-			}
-		],
-		"tools": [{
-				"skill": "Git",
-				"icon": "devicon-git-plain"
-			},
-			{
-				"skill": "GitHub",
-				"icon": "devicon-github-plain"
-			},
-			{
-				"skill": "Photoshop",
-				"icon": "devicon-photoshop-plain"
-			},
-			{
-				"skill": "Trello",
-				"icon": "devicon-trello-plain"
-			},
-			{
-				"skill": "Figma",
-				"icon": "devicon-figma-plain"
-			}
-		]
-	}],
-	"certification": [{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "WordPress na Prática",
-			"degreeUrl": "https://drive.google.com/file/d/1k3fRdRg0cGKABcy7Fz2GrBiKkjEqe-6f/view?usp=sharing"
-		},{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Patterns & Frameworks Trends",
-			"degreeUrl": "https://drive.google.com/file/d/1ArNdW-rKZinPvjSfCPekQsF1UJpNgd6I/view?usp=sharing"
-		},{
-			"degreeType": "certification",
-			"school": "FIAP",
-			"fieldOfStudy": "Certificado de Qualificação Profissional em Estratégia e Inovação Tecnológica com aplicações em IA e IoT",
-			"degreeUrl": "https://drive.google.com/file/d/1mbSbOw5nuEzksSR-VfKdiuA-rK47IVpT/view?usp=sharing"
-		},{
-			"degreeType": "certification",
-			"school": "FIAP",
-			"fieldOfStudy": "Certificado de Qualificação Profissional em Desenvolvimento de Aplicações Móveis",
-			"degreeUrl": "https://drive.google.com/file/d/1Ued5tvm8XYyzRK0zBEtzuRx2dHT02y6L/view?usp=sharing"
-		},{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Services Architeture, API and Mobile Architeture",
-			"degreeUrl": "https://drive.google.com/file/d/1PAJ7nxGkcaZo7fMLeWMvfNMZxoaW_YG6/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Desenvolvimento Android",
-			"degreeUrl": "https://drive.google.com/file/d/155JC23npKukOIXW6IyHYAnN1w5VuIWpj/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "Udemy",
-			"fieldOfStudy": "Desenvolvimento WEB Completo",
-			"degreeUrl": "https://drive.google.com/file/d/1BIhUz5gi-O46Yrj6K8WpBpcbpk5f22oW/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Desenvolvimento iOS",
-			"degreeUrl": "https://drive.google.com/file/d/1WX0AdLPQHzLo0Y8KsU9HHNcI2BJJGuUO/view?usp=sharing"
-		},
-		{
-			"degreeType": "certification",
-			"school": "FIAP",
-			"fieldOfStudy": "Certificado de Qualificação Profissional em Desenvolvimento e Designer Web 2.0",
-			"degreeUrl": "https://drive.google.com/file/d/1i_T_OJMoHBJyPH1q6Ud-qV_okpBBVW3j/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Customer Experience Mangement",
-			"degreeUrl": "https://drive.google.com/file/d/107teZ3TC7tFUBmp8iHSuWM79Ec0dD6IE/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "User Experience",
-			"degreeUrl": "https://drive.google.com/file/d/1nrHMhCcj8XZD7NtdmIdQMyB452zeGSsw/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Soluções Tecnológicas Emergentes",
-			"degreeUrl": "https://drive.google.com/file/d/1Dv-18chtOe1IXNcwBHn1uQ0n9cpo3rN-/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Digital Data Science",
-			"degreeUrl": "https://drive.google.com/file/d/1h-AMOPiBO9Erl2r5vjycF7HtsLEqRRhc/view?usp=sharing"
-		},
-		{
-			"degreeType": "certification",
-			"school": "FIAP",
-			"fieldOfStudy": "Certificado de Qualificação Profissional em Análise de Sistemas e Prototipagem de Web",
-			"degreeUrl": "https://drive.google.com/file/d/1z4GY-pLMzB2ANJpSPc7b-UMTBMSIO9TF/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Python",
-			"degreeUrl": "https://drive.google.com/file/d/1Cdx8dMSyCas5WFDrOSwt_P3mIDmbFHd2/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "FIAP",
-			"fieldOfStudy": "Design Thinking",
-			"degreeUrl": "https://drive.google.com/file/d/1iFpl9qP_4XBC0ckGO9iZfGkrX4dOxDAN/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "Microcamp",
-			"fieldOfStudy": "Web",
-			"degreeUrl": "https://drive.google.com/file/d/1AuxvU4II9MQuiniCZn90MvUxcBNNvcu5/view?usp=sharing"
-		},
-		{
-			"degreeType": "certification",
-			"school": "EXIN",
-			"fieldOfStudy": "ITIL Certificate in IT Service Management - v2",
-			"degreeUrl": "https://drive.google.com/file/d/1EB_75Qwt3ixB4tuzzIeKFybLl5JCxiXq/view?usp=sharing"
-		},
-		{
-			"degreeType": "graduation",
-			"school": "UNIP",
-			"fieldOfStudy": "Bacharel em Sistemas de Informação",
-			"degreeUrl": "https://drive.google.com/file/d/1odOuzzH39Poi7d_5AnGSVIVGcc3ccPv_/view?usp=sharing"
-		},
-		{
-			"degreeType": "course",
-			"school": "Várias",
-			"fieldOfStudy": "Outros Certificados desde 2005 até o momento",
-			"degreeUrl": "https://drive.google.com/drive/folders/1E0xCAAI2Vj0q71xzyu5DyhHsvbltaEX3?usp=sharing"
-		}
-	],
-	"portfolio": [{
-			"title": "SGP - Apresentação",
-			"imageSrc": "./assets/images/p003-sgp.jpg",
-			"txtAlt": "SGP - Apresentação",
-			"siteUrl": "sgp-presentation",
-			"description": "SGP (Skill Goal Professional) - É uma landing page desenvolvida com HTML5/CSS3 de apresentação para 1ª Sprint do Challenge Fiap junto a B2W com o tema: Employee Experience. O Challenge faz parte de uma avaliação do 1º ano de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP.",
-			"dateRelease": "07/06/2020"
-		},
-		{
-			"title": "Coronapp",
-			"imageSrc": "./assets/images/p002-coronapp.jpg",
-			"txtAlt": "Coronapp - Delivery Solidário",
-			"siteUrl": "coronapp",
-			"description": "Coronapp - Delivery Solidário - É uma landing page desenvolvida com HTML5/CSS3 sobre o Desafio Corona para a segunda avaliação da disciplina Responsive Web Development da graduação de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP. O Desafio Corona consiste em apresentar uma solução para os impactos causados pela Covid-19.",
-			"dateRelease": "31/05/2020"
-		},
-		{
-			"title": "Filmov",
-			"imageSrc": "./assets/images/p001-filmov.jpg",
-			"txtAlt": "Projeto Filmov",
-			"siteUrl": "filmov",
-			"description": "Um modelo de Site de Filmes e Séries desenvolvido utilizando apenas HTML5/CSS3 para a primeira avaliação da disciplina Responsive Web Development da graduação de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP.",
-			"dateRelease": "04/05/2020"
-		}
-	]
+  "profile": [
+    {
+      "name": "Jonas Muniz de Souza",
+      "location": "Itapevi/SP",
+      "email": "jonasmzsouza@gmail.com",
+      "description": "Casado, filho de pai nordestino e mãe sulista, nasci e cresci na Zona Oeste da Região Metropolitana de São Paulo. \n Foi durante o ensino médio que surgiu a oportunidade de ter o primeiro contato com a informática através de cursos. A partir de então despertei a paixão pela tecnologia o que me levou a formação em Sistemas de Informação onde obtive experiências iniciais com o desenvolvimento web. \n Após quase três anos de experiência em suporte técnico, abracei a oportunidade em um novo desafio exercendo a função de analista administrativo em um comércio de varejo, no qual realizava manutenções de informática e administrava as redes sociais, entre outras tarefas, e, em paralelo, obtive experiências freelance em Web Design desenvolvendo sites estáticos em html e css, cartazes, banners, flyers, folders e artes para organizações religiosas. \n Com o objetivo de adquirir conhecimento e experiência de novas tecnologias e de mercado, busquei uma nova formação em Tecnologia em Análise e Desenvolvimento de Sistemas com o modelo hands-on em vivência na área da tecnologia da informação. \n Atualmente desenvolvo projetos web (HTML, CSS, SASS, Bootstrap, JavaScript, jQuery), além de conhecimentos em banco de dados (MySQL, Oracle SQL), outras linguagens (Python, Java, PHP), ferramentas (Figma, Node-RED, Eclipse, VSCode) e metodologias de desenvolvimento (Scrum, MVC, UML). \n Além do desenvolvimento web, a minha paixão se estende em conhecer lugares ligados à natureza, animais, cultura e pela música onde toco violão, teclado e faço composições."
+    }
+  ],
+  "education": [
+    {
+      "school": "Faculdade de Informática e Administração Paulista - FIAP",
+      "degree": "Tecnólogo",
+      "fieldOfStudy": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      "location": "São Paulo/SP",
+      "timeCourse": {
+        "startDate": "Fevereiro 2020",
+        "endDate": "Dezembro 2021"
+      },
+      "description": ""
+    },
+    {
+      "school": "Universidade Paulista - UNIP",
+      "degree": "Bacharelado",
+      "fieldOfStudy": "Sistemas de Informação",
+      "location": "Santana de Parnaíba/SP",
+      "timeCourse": {
+        "startDate": "Fevereiro 2006",
+        "endDate": "Dezembro 2009"
+      },
+      "description": "Trabalho de conclusão de curso sobre sistema de automação comercial. Gestão de vendas e estoque para microempresas."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Analista Administrativo",
+      "company": "Magdiel Modas LTDA ME",
+      "location": "Itapevi/SP",
+      "timeCourse": {
+        "startDate": "Dezembro 2010",
+        "endDate": "Fevereiro 2020"
+      },
+      "description": "Responsável pela administração de contas a pagar e receber. \n Responsável pelo cadastro de produtos e fornecedores. \n Responsável pela emissão, organização de notas fiscais e gerenciamento de certificados. \n Responsável pelo website, redes sociais, manutenção em informática, busca e execução de melhorias em automação. \n Atuação em comunicação e marketing criando design gráficos e campanhas. \n Atuação em administração de materiais e controle de estoque. \n Atuação em organização e desenvolvimento de documentações e processos. \n Atuação em frente de caixa e atendimento ao cliente."
+    },
+    {
+      "title": "Assistente de Service Desk",
+      "company": "Capgemini Brasil S.A.",
+      "location": "Barueri/SP",
+      "timeCourse": {
+        "startDate": "Fevereiro 2008",
+        "endDate": "Setembro 2010"
+      },
+      "description": "Cliente: Net Serviços. Atuação na recepção, registro e acompanhamento de chamados de serviços, monitoramento da situação de todos os chamados registrados, escalonamento e encaminhamento para outras áreas da organização, determinação e resolução de problemas técnicos de primeiro nível (incidentes e requisições), fechamento dos incidentes e confirmação com o cliente, documentação e desenvolvimento de procedimentos. Em alguns momentos fui responsável pelo treinamento e auxílio dos profissionais do nível técnico."
+    },
+    {
+      "title": "Instrutor Voluntário de Informática Básica",
+      "company": "E.E. Padre Giuseppe Angelo Bertolli",
+      "location": "Jandira/SP",
+      "timeCourse": {
+        "startDate": "Abril 2006",
+        "endDate": "Novembro 2007"
+      },
+      "description": "Lecionei aulas de Informática Básica (Conceitos de informática, Sistema Operacional Windows, Pacote Microsoft Office e Internet), elaborei material didático e gerenciei turmas como parte de atividades complementares aos finais de semana junto ao Programa Escola da Família."
+    }
+  ],
+  "skills": [
+    {
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Básico"
+        }
+      ],
+      "markupProgramming": [
+        {
+          "skill": "HTML5",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "skill": "CSS3",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "skill": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "skill": "SASS",
+          "icon": "devicon-sass-plain"
+        },
+        {
+          "skill": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "skill": "jQuery",
+          "icon": "devicon-jquery-plain"
+        },
+        {
+          "skill": "Java",
+          "icon": "devicon-java-plain"
+        },
+        {
+          "skill": "Python",
+          "icon": "devicon-python-plain"
+        },
+        {
+          "skill": "PHP",
+          "icon": "devicon-php-plain"
+        },
+        {
+          "skill": "React",
+          "icon": "devicon-react-plain"
+        },
+        {
+          "skill": "MySQL",
+          "icon": "devicon-mysql-plain"
+        },
+        {
+          "skill": "Oracle",
+          "icon": "devicon-oracle-plain"
+        }
+      ],
+      "tools": [
+        {
+          "skill": "Git",
+          "icon": "devicon-git-plain"
+        },
+        {
+          "skill": "GitHub",
+          "icon": "devicon-github-plain"
+        },
+        {
+          "skill": "Photoshop",
+          "icon": "devicon-photoshop-plain"
+        },
+        {
+          "skill": "Trello",
+          "icon": "devicon-trello-plain"
+        },
+        {
+          "skill": "Figma",
+          "icon": "devicon-figma-plain"
+        }
+      ]
+    }
+  ],
+  "certification": [
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "WordPress na Prática",
+      "degreeUrl": "https://drive.google.com/file/d/1k3fRdRg0cGKABcy7Fz2GrBiKkjEqe-6f/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Patterns & Frameworks Trends",
+      "degreeUrl": "https://drive.google.com/file/d/1ArNdW-rKZinPvjSfCPekQsF1UJpNgd6I/view?usp=sharing"
+    },
+    {
+      "degreeType": "certification",
+      "school": "FIAP",
+      "fieldOfStudy": "Certificado de Qualificação Profissional em Estratégia e Inovação Tecnológica com aplicações em IA e IoT",
+      "degreeUrl": "https://drive.google.com/file/d/1mbSbOw5nuEzksSR-VfKdiuA-rK47IVpT/view?usp=sharing"
+    },
+    {
+      "degreeType": "certification",
+      "school": "FIAP",
+      "fieldOfStudy": "Certificado de Qualificação Profissional em Desenvolvimento de Aplicações Móveis",
+      "degreeUrl": "https://drive.google.com/file/d/1Ued5tvm8XYyzRK0zBEtzuRx2dHT02y6L/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Services Architeture, API and Mobile Architeture",
+      "degreeUrl": "https://drive.google.com/file/d/1PAJ7nxGkcaZo7fMLeWMvfNMZxoaW_YG6/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Desenvolvimento Android",
+      "degreeUrl": "https://drive.google.com/file/d/155JC23npKukOIXW6IyHYAnN1w5VuIWpj/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "Udemy",
+      "fieldOfStudy": "Desenvolvimento WEB Completo",
+      "degreeUrl": "https://drive.google.com/file/d/1BIhUz5gi-O46Yrj6K8WpBpcbpk5f22oW/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Desenvolvimento iOS",
+      "degreeUrl": "https://drive.google.com/file/d/1WX0AdLPQHzLo0Y8KsU9HHNcI2BJJGuUO/view?usp=sharing"
+    },
+    {
+      "degreeType": "certification",
+      "school": "FIAP",
+      "fieldOfStudy": "Certificado de Qualificação Profissional em Desenvolvimento e Designer Web 2.0",
+      "degreeUrl": "https://drive.google.com/file/d/1i_T_OJMoHBJyPH1q6Ud-qV_okpBBVW3j/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Customer Experience Mangement",
+      "degreeUrl": "https://drive.google.com/file/d/107teZ3TC7tFUBmp8iHSuWM79Ec0dD6IE/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "User Experience",
+      "degreeUrl": "https://drive.google.com/file/d/1nrHMhCcj8XZD7NtdmIdQMyB452zeGSsw/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Soluções Tecnológicas Emergentes",
+      "degreeUrl": "https://drive.google.com/file/d/1Dv-18chtOe1IXNcwBHn1uQ0n9cpo3rN-/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Digital Data Science",
+      "degreeUrl": "https://drive.google.com/file/d/1h-AMOPiBO9Erl2r5vjycF7HtsLEqRRhc/view?usp=sharing"
+    },
+    {
+      "degreeType": "certification",
+      "school": "FIAP",
+      "fieldOfStudy": "Certificado de Qualificação Profissional em Análise de Sistemas e Prototipagem de Web",
+      "degreeUrl": "https://drive.google.com/file/d/1z4GY-pLMzB2ANJpSPc7b-UMTBMSIO9TF/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Python",
+      "degreeUrl": "https://drive.google.com/file/d/1Cdx8dMSyCas5WFDrOSwt_P3mIDmbFHd2/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "FIAP",
+      "fieldOfStudy": "Design Thinking",
+      "degreeUrl": "https://drive.google.com/file/d/1iFpl9qP_4XBC0ckGO9iZfGkrX4dOxDAN/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "Microcamp",
+      "fieldOfStudy": "Web",
+      "degreeUrl": "https://drive.google.com/file/d/1AuxvU4II9MQuiniCZn90MvUxcBNNvcu5/view?usp=sharing"
+    },
+    {
+      "degreeType": "certification",
+      "school": "EXIN",
+      "fieldOfStudy": "ITIL Certificate in IT Service Management - v2",
+      "degreeUrl": "https://drive.google.com/file/d/1EB_75Qwt3ixB4tuzzIeKFybLl5JCxiXq/view?usp=sharing"
+    },
+    {
+      "degreeType": "graduation",
+      "school": "UNIP",
+      "fieldOfStudy": "Bacharel em Sistemas de Informação",
+      "degreeUrl": "https://drive.google.com/file/d/1odOuzzH39Poi7d_5AnGSVIVGcc3ccPv_/view?usp=sharing"
+    },
+    {
+      "degreeType": "course",
+      "school": "Várias",
+      "fieldOfStudy": "Outros Certificados desde 2005 até o momento",
+      "degreeUrl": "https://drive.google.com/drive/folders/1E0xCAAI2Vj0q71xzyu5DyhHsvbltaEX3?usp=sharing"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "SGP - Apresentação",
+      "imageSrc": "./assets/images/sgp.jpg",
+      "description": "É uma landing page desenvolvida com HTML5/CSS3 de apresentação para 1ª Sprint do Challenge Fiap junto a B2W com o tema: Employee Experience. O Challenge faz parte de uma avaliação do 1º ano de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/sgp-presentation",
+      "siteUrl": "https://jonasmzsouza.github.io/sgp-presentation",
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Coronapp",
+      "imageSrc": "./assets/images/coronapp.jpg",
+      "description": "É uma landing page desenvolvida com HTML5/CSS3 sobre o Desafio Corona para a segunda avaliação da disciplina Responsive Web Development da graduação de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP. O Desafio Corona consiste em apresentar uma solução para os impactos causados pela Covid-19.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/coronapp",
+      "siteUrl": "https://jonasmzsouza.github.io/coronapp",
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Filmov",
+      "imageSrc": "./assets/images/filmov.jpg",
+      "description": "Um modelo de Site de Filmes e Séries desenvolvido utilizando apenas HTML5/CSS3 para a primeira avaliação da disciplina Responsive Web Development da graduação de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/filmov",
+      "siteUrl": "https://jonasmzsouza.github.io/filmov",
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    }
+  ]
 }

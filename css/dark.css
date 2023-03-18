@@ -1,134 +1,135 @@
-body{
-    background-color: #10161c;
-    color: #fff;
+body {
+  background-color: #10161c;
+  color: #fff;
 }
 
 /* --------------------------------------------
 NAVBAR
 -------------------------------------------- */
 .navbar {
-    background-color: #0d1117;
+  background-color: #0d1117;
 }
 
 .navbar hr {
-    color: #fff;
+  color: #fff;
 }
 
 .brand {
-    fill: #fff;
+  fill: #fff;
 }
 
-.navbar-toggler span{
-    color: #fff;
+.navbar-toggler span {
+  color: #fff;
 }
 
-.navbar-toggler span:hover{
-    color: #4d5863;
+.navbar-toggler span:hover {
+  color: #4d5863;
 }
 
 a,
-.nav-link{
-    color: #fff; 
+.nav-link {
+  color: #fff;
 }
 
-.nav-link:link, 
-.nav-link:visited, 
+.nav-link:link,
+.nav-link:visited,
 .nav-link:active {
   color: #fff;
 }
 
 .brand:hover,
-.nav-link:hover{
-    color: #4d5863;
-    fill: #4d5863;
+.nav-link:hover {
+  color: #4d5863;
+  fill: #4d5863;
 }
 
-#btnLanguage:hover{
-    color: #fff;
+#btnLanguage:hover {
+  color: #fff;
 }
 
 /* --------------------------------------------
 APRESENTATION
 -------------------------------------------- */
-.box img{
-    -webkit-box-shadow: 0 0 0 4rem #0d1117;
-    box-shadow: 0 0 0 4rem #0d1117;
+.box img {
+  -webkit-box-shadow: 0 0 0 4rem #0d1117;
+  box-shadow: 0 0 0 4rem #0d1117;
 }
 
 .apresentation {
-    background-color: #0d1117;
-    color: #fff;
+  background-color: #0d1117;
+  color: #fff;
 }
 
 /* --------------------------------------------
 SIDE LIST / CARD
 -------------------------------------------- */
-#about{
-    background-color: #141a22;
+#about {
+  background-color: #141a22;
 }
 
-#about ul li a:hover{
-    color: #fff;
-    background-color: #0d1117;
+#about ul li a:hover {
+  color: #fff;
+  background-color: #0d1117;
 }
 
-.card-header{
-    border-color: #4d5863;
-}
-
-.card-footer{
-    background-color: #141a22;
+.card-header {
+  border-color: #4d5863;
 }
 
 .list-unstyled li {
-    border-bottom-color: #4d5863;
+  border-bottom-color: #4d5863;
 }
 
 .skills a[aria-expanded="true"],
 .list-unstyled .list-group-item {
-    background-color: #182129;
+  background-color: #182129;
 }
 
-.skills a[aria-expanded="true"]:hover{
-    background-color: #0d1117;
+.skills a[aria-expanded="true"]:hover {
+  background-color: #0d1117;
 }
 
 .card,
 .list-group-item {
-    border-color: #4d5863;
-    color: #fff;
+  border-color: #4d5863;
+  color: #fff;
 }
 
-.active-page{
-    border-left-color:#fff;
-    background-color: #0d1117;
+.active-page {
+  border-left-color: #fff;
+  background-color: #0d1117;
 }
 
 /* --------------------------------------------
 ABOUT MENU
 -------------------------------------------- */
-#aboutItem{
-    border-color: #4d5863;
+#aboutItem {
+  border-color: #4d5863;
 }
 
 #aboutContent hr {
-    color: #adc1d4;
+  color: #adc1d4;
 }
 
 .devicon:hover,
-#aboutContent a:hover{
-    color: #fff;
+#aboutContent a:hover {
+  color: #fff;
 }
 
 .content-title-2,
 .content-title-3,
-.devicon,
-.project-date {
-    color: #899097;
+.devicon {
+  color: #899097;
 }
 
-.certificationLegend p{
-    color: #fff;
+.project-language-item,
+.project-links .link-item {
+  background-color: #fff;
+  color: #141a22;
+}
+
+.certificationLegend p {
+  color: #fff;
 }
 
 /* --------------------------------------------
@@ -136,54 +137,53 @@ SCROLLBAR
 -------------------------------------------- */
 .scrollbar-color::-webkit-scrollbar-track,
 .scrollbar-color::-webkit-scrollbar {
-    background-color: #182129;
-}
-    
-.scrollbar-color::-webkit-scrollbar-thumb {
-    background-color: #fff;
+  background-color: #182129;
 }
 
+.scrollbar-color::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
 
 /* --------------------------------------------
 BALLOON
 -------------------------------------------- */
 .back-to-top {
-    background-color: #10161c;
-    color: #fff;
-    -webkit-box-shadow: 0 0 10px 0 #4d5863;
-    box-shadow: 0 0 10px 0 #4d5863;
+  background-color: #10161c;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px 0 #4d5863;
+  box-shadow: 0 0 10px 0 #4d5863;
 }
 
-.back-to-top:hover{
-    background-color: #4d5863;
+.back-to-top:hover {
+  background-color: #4d5863;
 }
 
 /* --------------------------------------------
 FOOTER
--------------------------------------------- */     
+-------------------------------------------- */
 footer {
-    background-color: #fff;
-    color: #0d1117;
+  background-color: #fff;
+  color: #0d1117;
 }
 
-.foot-link{
-    color: #0d1117;
+.foot-link {
+  color: #0d1117;
 }
 
-.foot-link:hover{
-    color:#4d5863;
+.foot-link:hover {
+  color: #4d5863;
 }
 
-.foot-social-networks ul li a:hover{
-    color:#4d5863;
+.foot-social-networks ul li a:hover {
+  color: #4d5863;
 }
 
 /* --------------------------------------------
 DEVICES
 -------------------------------------------- */
 @media (max-width: 767px) {
-    .box img{
-        -webkit-box-shadow: 0 0 0 2rem #0d1117;
-        box-shadow: 0 0 0 2rem #0d1117;
-    }
+  .box img {
+    -webkit-box-shadow: 0 0 0 2rem #0d1117;
+    box-shadow: 0 0 0 2rem #0d1117;
+  }
 }

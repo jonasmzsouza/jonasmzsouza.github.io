@@ -1,451 +1,505 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
 
 body {
-    font-family: "Source Sans", sans-serif;
-    letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
 }
 
 /* --------------------------------------------
 NAVBAR
 -------------------------------------------- */
 .navbar-toggler:focus {
-    outline: none !important;
-    box-shadow: none;
+  outline: none !important;
+  box-shadow: none;
 }
 
 a,
-.nav-link{
-    text-decoration: none;
+.nav-link {
+  text-decoration: none;
 }
 
-a:hover{
-    cursor: pointer;
+a:hover {
+  cursor: pointer;
 }
 
-.brand svg{
-    margin: 12px;
- }
+.brand svg {
+  margin: 12px;
+}
 
-.nav-link{
-    font-weight: bold;
+.nav-link {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
 }
 
 #btnLanguage {
-    width: 90px;
+  width: 90px;
 }
 
-#btnLanguage:hover{
-    -webkit-filter: brightness(120%);
-    filter: brightness(120%);
+#btnLanguage:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
 }
 
 header ul,
 .about-menu ul,
 footer ul {
-    list-style: none;
+  list-style: none;
 }
 
 .page-settings ul,
-.nav-social-networks ul{
-    padding: 0;
-    margin: 0;
+.nav-social-networks ul {
+  padding: 0;
+  margin: 0;
 }
-.nav-social-networks{
-    margin-right: 30px;
+.nav-social-networks {
+  margin-right: 30px;
 }
 
-.page-settings ul{
-    display: flex;
-    align-items: center;
+.page-settings ul {
+  display: flex;
+  align-items: center;
 }
 
 .page-settings span,
-.nav-social-networks span{
-    font-size: 25px;
+.nav-social-networks span {
+  font-size: 25px;
 }
 
-.active-light{
-    color: #ff0;
+.active-light {
+  color: #ff0;
 }
 
-#btnLight span{
-    font-size: 20px;
+#btnLight span {
+  font-size: 20px;
 }
 
 /* --------------------------------------------
 APRESENTATION
 -------------------------------------------- */
 .box {
-    height: 90vh;
-    background-image: url(../assets/images/technology.jpg);
-    background-origin:initial;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    border-radius: 10px;
-    border-top: 1px solid; /*needed to fix image stretch problem caused by border-radius*/
+  height: 90vh;
+  background-image: url(../assets/images/technology.jpg);
+  background-origin: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  border-top: 1px solid; /*needed to fix image stretch problem caused by border-radius*/
 }
 
-.box img{
-    width: 15vw;
-    min-width: 100px;
-    border-radius: 50%;
+.box img {
+  width: 15vw;
+  min-width: 100px;
+  border-radius: 50%;
 }
 
 .apresentation {
-    width: 100%;
-    height: 10rem;
-    min-height: 100px;
-    animation: anime 1.5s linear;
+  width: 100%;
+  height: 10rem;
+  min-height: 100px;
+  animation: anime 1.5s linear;
 }
 
 .apresentation-content {
-    margin-left: 60px;
-    z-index: 2;
+  margin-left: 60px;
+  z-index: 2;
 }
 
 .apresentation-name {
-    letter-spacing: 5px;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    animation: anime 1.5s linear;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: anime 1.5s linear;
 }
 
-.apresentation-title{
-    font-weight: bold;
-    animation: anime 1.5s linear;
+.apresentation-title {
+  font-weight: bold;
+  animation: anime 1.5s linear;
 }
 
 @keyframes anime {
-    0% {
-        font-size: 0;
-        opacity: 0;
-    }
+  0% {
+    font-size: 0;
+    opacity: 0;
+  }
 }
 
 /* --------------------------------------------
 ABOUT MENU
 -------------------------------------------- */
 #about {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 #about li {
-    padding: 0;
+  padding: 0;
 }
 
-#about li a{
-    margin: 0;
-    padding: 10px;
+#about li a {
+  margin: 0;
+  padding: 10px;
 }
 
-.card-header{
-    font-weight: bold;
+.card-header {
+  font-weight: bold;
 }
 
 .list-unstyled li {
-    border: none;
-    border-bottom: 1px solid;
+  border: none;
+  border-bottom: 1px solid;
 }
 
 .card,
 .list-group-item {
-    background-color: transparent;
+  background-color: transparent;
 }
 
-.active-page{
-    border-left: 3px solid;
+.active-page {
+  border-left: 3px solid;
 }
 
 /* --------------------------------------------
 ABOUT ITEM
 -------------------------------------------- */
-#aboutItem{
-    padding: 0;
-    margin: 0;
-    border: 1px solid;
-    border-radius: 3px;
+#aboutItem {
+  padding: 0;
+  margin: 0;
+  border: 1px solid;
+  border-radius: 3px;
 }
 
-.about-item-title{
-    font-size: 30px;
-    font-weight: bold;
+.about-item-title {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .content-title-1,
 .content-title-2,
 .content-title-3 {
-    margin-bottom: 0;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-family: 'PT Sans', sans-serif;
+  margin-bottom: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "PT Sans", sans-serif;
 }
 
-.content-title-1{
-    font-size: 22px;
+.content-title-1 {
+  font-size: 1.2rem;
 }
 
 .content-title-2 {
-    font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .content-title-3 {
-    font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .content-description {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.content-link:hover{
-    text-decoration: underline;
+.content-link:hover {
+  text-decoration: underline;
 }
 
-.soft-skills-title{
-    width: 190px;
+.soft-skills-title {
+  width: 190px;
 }
 
-.languages-box{
-    margin-bottom: 40px;  
+.languages-box {
+  margin-bottom: 40px;
 }
 
-.devicon-box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    margin-bottom: 40px;
+.devicon-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-.devicon{
-    width: 100px;
-    height: 90px;
-    padding: 5px;
-    text-align: center;
+.devicon {
+  width: 100px;
+  height: 90px;
+  padding: 5px;
+  text-align: center;
 }
 
-.devicon span{
-    font-size: 40px;
+.devicon span {
+  font-size: 40px;
 }
 
-.devicon p{
-    margin: 0;
-    padding-top: 5px;
-    font-family: "Source Sans", sans-serif;
-    letter-spacing: 0;
-    font-size: 12px;
-    font-weight: bold;
+.devicon p {
+  margin: 0;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .certificationLegend {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .certificationLegend span,
 .certificationItem span {
-    width: 20px;
+  width: 20px;
 }
 
 .certificationItem {
-    height: auto;
+  height: auto;
 }
 
 .certificationLegend p,
-.certificationItem a{
-    margin-left: 10px;
+.certificationItem a {
+  margin-left: 10px;
 }
 
 /* --------------------------------------------
 PORTFOLIO
 -------------------------------------------- */
-.card img{
-    width: 100%;
-    border-radius: 2px 2px 0 0;
+.card img {
+  margin: 0.5rem;
+  border-radius: 15px;
 }
 
-.card-footer{
-    border: none;
+.card-footer {
+  border: none;
 }
 
-#portfolio{
-    font-weight: bold;
+#portfolio {
+  font-weight: bold;
 }
 
 #portfolio,
-#portfolioContent{
-    padding: 0 50px;
+#portfolioContent {
+  padding: 0 50px;
 }
 
-#portfolioContent .card{
-    transition: 0.5s;
+#portfolioContent .card {
+  border-radius: 15px;
+  transition: 0.5s;
 }
 
-#portfolioContent .card:hover{
-    transform: translateY(-10px);
+#portfolioContent .card:hover {
+  transform: translateY(-10px);
 }
 
-#portfolioContent .card-title{
-    font-weight: 700;
+#portfolioContent .card-title {
+  margin: 0;
+  padding: 1rem 0.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
-.project-date {
-    font-weight: bold;
+#portfolioContent .card-body {
+  font-size: 0.9rem;
+}
+
+#portfolioContent .card-footer {
+  padding: 10px;
+  background-color: unset;
+  border-radius: 0 0 15px 15px;
+}
+
+.project-languages {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-language-item {
+  margin: 2px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-links {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.project-links .link-item {
+  margin: 5px;
+  padding: 5px 8px;
+  background: #fff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.project-links .link-item span b {
+  margin-left: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.project-links .link-item:hover {
+  background-color: #67ad8e;
+  transition: all 0.5s;
 }
 
 /* --------------------------------------------
 SCROLLBAR
 -------------------------------------------- */
 .scrollbar {
-    height: 60vh;
-    overflow: auto;
-    padding: 20px;
-    line-height: 1.8rem;
+  height: 60vh;
+  overflow: auto;
+  padding: 20px;
+  line-height: 1.8rem;
 }
-    
+
 .scrollbar-color::-webkit-scrollbar-track,
 .scrollbar-color::-webkit-scrollbar {
-    width: 12px;
-    border-radius: 0 2px 2px 0;
+  width: 12px;
+  border-radius: 0 2px 2px 0;
 }
-    
+
 .scrollbar-color::-webkit-scrollbar-thumb {
-    border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
 }
 
 /* --------------------------------------------
 BALLOON
 -------------------------------------------- */
 .back-to-top {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    font-size: 25px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border: none;
-    box-shadow: 0 0 10px 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 25px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  box-shadow: 0 0 10px 0;
 }
 
-.back-to-top:hover{
-    transition: 0.5s;
+.back-to-top:hover {
+  transition: 0.5s;
 }
 
 /* --------------------------------------------
 FOOTER
--------------------------------------------- */     
+-------------------------------------------- */
 footer {
-    padding: 10px 0;
-    height: 30vh auto;
-    text-align: center;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
+  padding: 10px 0;
+  height: 30vh auto;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
-
-footer .list-group-item{
-    border: none;
+footer .list-group-item {
+  border: none;
 }
 
-.foot-link:hover{
-    text-decoration: underline;
+.foot-link:hover {
+  text-decoration: underline;
 }
 
 .foot-social-networks {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: 25px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 25px;
 }
 
-.foot-social-networks ul{
-    padding: 0;
-    margin: 0;
+.foot-social-networks ul {
+  padding: 0;
+  margin: 0;
 }
 
-.foot-social-networks ul li a{
-    margin: 10px;
+.foot-social-networks ul li a {
+  margin: 10px;
 }
 
 /* --------------------------------------------
 DEVICES
 -------------------------------------------- */
 @media (max-width: 1399px) {
-    #portfolio,
-    #portfolioContent{
-        padding: 0;
-    }
+  #portfolio,
+  #portfolioContent {
+    padding: 0;
+  }
 }
 @media (max-width: 767px) {
-    .navbar-collapse{
-        padding: 0 10px; 
-    }
+  .navbar-collapse {
+    padding: 0 10px;
+  }
 
-    .box {
-        background-attachment: scroll;
-    }
+  .box {
+    background-attachment: scroll;
+  }
 
-    .box-apresentation {
-        padding: 0;
-    }
+  .box-apresentation {
+    padding: 0;
+  }
 
-    .apresentation {
-        height: 5rem;
-    }
+  .apresentation {
+    height: 5rem;
+  }
 
-    .apresentation-content {
-        margin-left: 30px;
-    }
+  .apresentation-content {
+    margin-left: 30px;
+  }
 
-    .apresentation-name {
-        letter-spacing: 0;
-        font-size: 1.2rem;
-    }
+  .apresentation-name {
+    letter-spacing: 0;
+    font-size: 1.2rem;
+  }
 
-    .apresentation-title{
-        font-size: 0.7rem;
-    }
+  .apresentation-title {
+    font-size: 0.7rem;
+  }
 
-    #about {
-        flex-direction: column;
-    }
-    
-    .about-menu{
-        margin-bottom: 1.5rem;
-    }
+  #about {
+    flex-direction: column;
+  }
 
-    .about-item-title{
-        font-size: 24px;
-    }
+  .about-menu {
+    margin-bottom: 1.5rem;
+  }
 
-    .soft-skills-title{
-        font-size: 14px;
-    }    
+  .about-item-title {
+    font-size: 24px;
+  }
 
-    .certificationLegend {
-        flex-direction: column;
-    }
+  .soft-skills-title {
+    font-size: 14px;
+  }
 
-    .certificationItem {
-        height: auto;
-        margin-bottom: 10px;
-        border-bottom: 1px solid #41464b6d;
-    }
+  .certificationLegend {
+    flex-direction: column;
+  }
 
-    .scrollbar{
-        height: 80vh;
-    }
+  .certificationItem {
+    height: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #41464b6d;
+  }
 
-    .back-to-top {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-    }
+  .scrollbar {
+    height: 80vh;
+  }
 
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
 }
