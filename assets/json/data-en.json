@@ -96,9 +96,17 @@
           "skill": "jQuery",
           "icon": "devicon-jquery-plain"
         },
+				{
+          "skill": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
         {
           "skill": "Java",
           "icon": "devicon-java-plain"
+        },
+				{
+          "skill": "Spring",
+          "icon": "devicon-spring-plain"
         },
         {
           "skill": "Python",
@@ -108,9 +116,33 @@
           "skill": "PHP",
           "icon": "devicon-php-plain"
         },
+				{
+          "skill": "WordPress",
+          "icon": "devicon-wordpress-plain"
+        },
+				{
+          "skill": "Laravel",
+          "icon": "devicon-laravel-plain"
+        },
+				{
+          "skill": "NPM",
+          "icon": "devicon-npm-original-wordmark"
+        },
+				{
+          "skill": "Yarn",
+          "icon": "devicon-yarn-plain"
+        },
+				{
+          "skill": "NodeJS",
+          "icon": "devicon-nodejs-plain"
+        },
         {
           "skill": "React",
           "icon": "devicon-react-plain"
+        },
+				{
+          "skill": "Jest",
+          "icon": "devicon-jest-plain"
         },
         {
           "skill": "MySQL",
@@ -119,10 +151,18 @@
         {
           "skill": "Oracle",
           "icon": "devicon-oracle-plain"
+        },
+				{
+          "skill": "PostgreSQL",
+          "icon": "devicon-postgresql-plain"
         }
       ],
       "tools": [
         {
+          "skill": "VSCode",
+          "icon": "devicon-vscode-plain"
+        },
+				{
           "skill": "Git",
           "icon": "devicon-git-plain"
         },
@@ -130,17 +170,37 @@
           "skill": "GitHub",
           "icon": "devicon-github-plain"
         },
-        {
-          "skill": "Photoshop",
-          "icon": "devicon-photoshop-plain"
+				{
+          "skill": "GitLab",
+          "icon": "devicon-gitlab-plain"
+        },
+				{
+          "skill": "Bitbucket",
+          "icon": "devicon-bitbucket-original"
+        },
+				{
+          "skill": "Heroku",
+          "icon": "devicon-heroku-original"
+        },
+				{
+          "skill": "Jupyter",
+          "icon": "devicon-jupyter-plain"
         },
         {
           "skill": "Trello",
           "icon": "devicon-trello-plain"
         },
+				{
+          "skill": "Photoshop",
+          "icon": "devicon-photoshop-plain"
+        },
         {
           "skill": "Figma",
-          "icon": "devicon-figma-plain"
+          "icon": "devicon-figma-plain" 
+        },
+				{
+          "skill": "Canva",
+          "icon": "devicon-canva-original" 
         }
       ]
     }
