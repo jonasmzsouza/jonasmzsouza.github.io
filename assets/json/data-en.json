@@ -33,6 +33,16 @@
   ],
   "experience": [
     {
+      "title": "Web Developer",
+      "company": "FECAP - Fundação Escola de Comércio Álvares Penteado",
+      "location": "São Paulo/SP",
+      "timeCourse": {
+        "startDate": "August 2021",
+        "endDate": "present"
+      },
+      "description": "Acting in the development, maintenance and improvements of the main site. Attending to internal requests and creating landing pages for student recruitment campaigns. \n Acting in the configuration, maintenance and monitoring of server backup services and routines. \n Acting in the maintenance of servers, configuration and monitoring of services and backup routines. \n Acting in the development of the Call System project for the Marketing department. \n Learning new tools, participation in the phases of analysis and development of products on the web platform. \n Tools used: Ubuntu, WordPress, PHP, Laravel, MySQL, phpMyAdmin, HTML, CSS, JavaScript, jQuery, SendGrid and RDStation."
+    },
+    {
       "title": "Administrative Analyst",
       "company": "Magdiel Modas LTDA ME",
       "location": "Itapevi/SP",

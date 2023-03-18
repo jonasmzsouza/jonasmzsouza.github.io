@@ -33,6 +33,16 @@
   ],
   "experience": [
     {
+      "title": "Desenvolvedor Web",
+      "company": "FECAP - Fundação Escola de Comércio Álvares Penteado",
+      "location": "São Paulo/SP",
+      "timeCourse": {
+        "startDate": "Agosto 2021",
+        "endDate": "o momento"
+      },
+      "description": "Atuação no desenvolvimento, manutenção e melhorias no site principal. Atendimento em solicitações internas e criação de landing pages para campanhas de captação. \n Atuação na configuração, manutenção e monitoramento de serviços e rotinas de backup do servidor. \n Atuação na manutenção de servidores, configuração e monitoramento de serviços e rotinas de backups. \n Atuação no desenvolvimento do projeto de Sistema de Chamados para o departamento do Marketing. \n Aprendizagem de novas ferramentas, participação nas fases de análise e desenvolvimento de produtos na plataforma web. \n Ferramentas utilizadas: Ubuntu, WordPress, PHP, Laravel, MySQL, phpMyAdmin, HTML, CSS, JavaScript, jQuery, SendGrid e RDStation."
+    },
+    {
       "title": "Analista Administrativo",
       "company": "Magdiel Modas LTDA ME",
       "location": "Itapevi/SP",
