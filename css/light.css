@@ -127,10 +127,13 @@ ABOUT MENU
   color: #606161;
 }
 
-.project-language-item,
 .project-links .link-item {
   background-color: #5a5a5a;
   color: #fff;
+}
+
+.project-language-item {
+  color: #5a5a5a;
 }
 
 .certificationLegend p {

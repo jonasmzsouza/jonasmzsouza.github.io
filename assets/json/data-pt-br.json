@@ -363,11 +363,88 @@
   ],
   "portfolio": [
     {
+      "title": "JMSCalculator",
+      "imageSrc": "./assets/images/jmscalculator.jpg",
+      "description": "Uma aplicação de calculadora com operações básicas e outras operações tais como porcentagem, potência, bem como som, data e hora.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/jmscalculator",
+      "appUrl": "https://jmscalculator.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Loja Virtual",
+      "imageSrc": "./assets/images/virtual-store.jpg",
+      "description": "Um app mobile simples de loja virtual de frutas, com sistema de carrinho utilizando o Context.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210929/lojavirtual",
+      "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+      "isMobileApp": true,
+      "languages": [
+        {
+          "name": "React Native",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Navigation Login",
+      "imageSrc": "./assets/images/navigation-login.jpg",
+      "description": "Um app mobile simples de sistema de login com duas telas: login e boas vindas.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210816/navigationlogin",
+      "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+      "isMobileApp": true,
+      "languages": [
+        {
+          "name": "React Native",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "AsyncStorage",
+      "imageSrc": "./assets/images/persistence-asyncstorage.jpg",
+      "description": "Um app mobile simples de persistência de dados com AsyncStorage.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210811/persistencia",
+      "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+      "isMobileApp": true,
+      "languages": [
+        {
+          "name": "React Native",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
       "title": "SGP - Apresentação",
       "imageSrc": "./assets/images/sgp.jpg",
-      "description": "É uma landing page desenvolvida com HTML5/CSS3 de apresentação para 1ª Sprint do Challenge Fiap junto a B2W com o tema: Employee Experience. O Challenge faz parte de uma avaliação do 1º ano de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP.",
+      "description": "Uma landing page de apresentação para mostrar a idéia de uma solução do Challenge FIAP junto a B2W com o tema: Employee Experience.",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/sgp-presentation",
-      "siteUrl": "https://jonasmzsouza.github.io/sgp-presentation",
+      "appUrl": "https://jonasmzsouza.github.io/sgp-presentation",
+      "isMobileApp": false,
       "languages": [
         {
           "name": "HTML",
@@ -382,9 +459,10 @@
     {
       "title": "Coronapp",
       "imageSrc": "./assets/images/coronapp.jpg",
-      "description": "É uma landing page desenvolvida com HTML5/CSS3 sobre o Desafio Corona para a segunda avaliação da disciplina Responsive Web Development da graduação de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP. O Desafio Corona consiste em apresentar uma solução para os impactos causados pela Covid-19.",
+      "description": "Uma landing page desenvolvida sobre o Desafio Corona que consiste em apresentar uma solução para os impactos causados pela Covid-19.",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/coronapp",
-      "siteUrl": "https://jonasmzsouza.github.io/coronapp",
+      "appUrl": "https://jonasmzsouza.github.io/coronapp",
+      "isMobileApp": false,
 			"languages": [
         {
           "name": "HTML",
@@ -399,9 +477,10 @@
     {
       "title": "Filmov",
       "imageSrc": "./assets/images/filmov.jpg",
-      "description": "Um modelo de Site de Filmes e Séries desenvolvido utilizando apenas HTML5/CSS3 para a primeira avaliação da disciplina Responsive Web Development da graduação de Tecnologia em Análise e Desenvolvimento de Sistema na FIAP.",
+      "description": "Um modelo de site streaming contendo informações sobre filmes, séries e formulário de contato.",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/filmov",
-      "siteUrl": "https://jonasmzsouza.github.io/filmov",
+      "appUrl": "https://jonasmzsouza.github.io/filmov",
+      "isMobileApp": false,
 			"languages": [
         {
           "name": "HTML",
@@ -410,6 +489,212 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Personal Budget",
+      "imageSrc": "./assets/images/personal-budget.jpg",
+      "description": "Um site de controle pessoal para registro de despesas.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section09/app-personal-budget",
+      "appUrl": "https://personal-budget-project.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Kill Mosquito",
+      "imageSrc": "./assets/images/kill-mosquito.jpg",
+      "description": "Um site de um jogo que consiste em tentativas de matar mosquito em vários níveis.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-kill-mosquito",
+      "appUrl": "https://kill-mosquito.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Calculator",
+      "imageSrc": "./assets/images/app-calculator.jpg",
+      "description": "Um aplicativo de calculadora com operações básicas.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-calculator",
+      "appUrl": "https://app-calculator-project.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Spotify Clone",
+      "imageSrc": "./assets/images/spotify-clone.jpg",
+      "description": "Um clone do site Spotify.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/spotify-project",
+      "appUrl": "https://spotify-clone-proj.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Finans",
+      "imageSrc": "./assets/images/finans.jpg",
+      "description": "Um modelo de site de finanças para interessados em poupar dinheiro.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/finans-project",
+      "appUrl": "https://finans-proj.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "National Museum",
+      "imageSrc": "./assets/images/national-museum.jpg",
+      "description": "Um modelo de site fictício para o museu nacional localizado no Rio de Janeiro/Brasil.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section06/national-museum-project",
+      "appUrl": "https://national-museum-proj.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Chalet Hotel",
+      "imageSrc": "./assets/images/chalet-hotel.jpg",
+      "description": "Um modelo de site de hotel chalé para interessados em tirar um tempo para lazer.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/chalet-hotel-project",
+      "appUrl": "https://chalet-hotel.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Notícias Cidade",
+      "imageSrc": "./assets/images/city-news.jpg",
+      "description": "Um modelo de site de notícias da cidade.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/city-news-project",
+      "appUrl": "https://city-news.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "TecBlog",
+      "imageSrc": "./assets/images/tecblog.jpg",
+      "description": "Um modelo básico de site de blog.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/tecblog-project",
+      "appUrl": "https://tecblog-project.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Anna Bella Modelo",
+      "imageSrc": "./assets/images/anna-bella-modelo.jpg",
+      "description": "Um modelo de site de portfólio para modelo profissional.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/anna-bella-project",
+      "appUrl": "https://anna-bella-modelo.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "UNES Universidade",
+      "imageSrc": "./assets/images/unes-universidade.jpg",
+      "description": "Um modelo de site de universade desenvolvido apenas em html.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section03/unes-project",
+      "appUrl": "https://unes-universidade.netlify.app/",
+      "isMobileApp": false,
+			"languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
         }
       ]
     }

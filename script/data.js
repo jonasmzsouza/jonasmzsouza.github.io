@@ -144,23 +144,29 @@ function getPortfolio(objJSONDataPage) {
     cardBody.appendChild(cardText);
 
     let repo = elementData("span", "<b>repo</b>", "fab fa-git-alt");
-    let website = elementData("span", "<b>website</b>", "fas fa-globe");
-
-    let codeHosting = elementData("a", "", "link-item scaled");
+    let codeHosting = elementData("a", "", "link-item");
     codeHosting.setAttribute("href", pageItem.codeHostingUrl);
     codeHosting.setAttribute("rel", "noopener noreferrer");
     codeHosting.setAttribute("target", "_blank");
     codeHosting.appendChild(repo);
 
-    let siteUrl = elementData("a", "", "link-item scaled");
-    siteUrl.setAttribute("href", pageItem.siteUrl);
-    siteUrl.setAttribute("rel", "noopener noreferrer");
-    siteUrl.setAttribute("target", "_blank");
-    siteUrl.appendChild(website);
+    let app = elementData("span", "<b>app</b>", pageItem.isMobileApp ? "fas fa-mobile-alt" : "fas fa-globe");
+    let appUrl;
+    if (pageItem.isMobileApp) {
+      appUrl = elementData("a", "", "link-item app-modal");
+      appUrl.setAttribute("data-src", pageItem.appUrl);
+      appUrl.appendChild(app);
+    } else {
+      appUrl = elementData("a", "", "link-item web");
+      appUrl.setAttribute("href", pageItem.appUrl);
+      appUrl.setAttribute("rel", "noopener noreferrer");
+      appUrl.setAttribute("target", "_blank");
+      appUrl.appendChild(app);
+    }
 
     let projectDate = elementData("div", "", "project-links");
     projectDate.appendChild(codeHosting);
-    projectDate.appendChild(siteUrl);
+    projectDate.appendChild(appUrl);
 
     let cardFooter = elementData("div", "", "card-footer");
     cardFooter.appendChild(cardLanguages);
@@ -448,7 +454,7 @@ function getCertification(objJSONDataPage, page) {
     link.setAttribute("href", pageItem.degreeUrl);
     link.setAttribute("rel", "noopener noreferrer");
     link.setAttribute("target", "_blank");
-    link.setAttribute("alt", pageItem.school);
+    link.setAttribute("data-school", pageItem.school);
     link.classList.add(classTitle3, "content-link");
     link.textContent = " " + pageItem.fieldOfStudy + " - " + pageItem.school;
 

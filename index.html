@@ -14,6 +14,9 @@
     <title></title>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Jonas Souza - Currículo">
@@ -50,7 +53,7 @@
         <nav class="container-xxl flex-wrap flex-md-nowrap">
 
             <!-- BRAND -->
-            <a class="navbar-brand p-0 me-2 brand" href="/">
+            <a class="navbar-brand p-0 me-2 brand">
                 <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"
                     width="50" height="25">
                     <g>
@@ -131,7 +134,7 @@
             <div class="col col-xxl-8 box-apresentation">
                 <div class="d-flex align-items-center box">
                     <div class="d-flex justify-content-center align-items-center apresentation">
-                        <img class="" src="./assets/images/profile.jpg" loading="lazy" alt="Imagem de Jonas Souza">
+                        <img class="" src="https://avatars.githubusercontent.com/u/61324433?v=4" loading="lazy" alt="Imagem de Jonas Souza">
                         <div class="apresentation-content">
                             <h2 class="apresentation-name">Jonas Souza</h2>
                             <h3 class="apresentation-title"></h3>
@@ -221,7 +224,7 @@
 
         <h3 id="portfolio"></h3>      
         <!-- PORTFOLIO -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-2 mb-5" id="portfolioContent">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-5 g-3 mb-5" id="portfolioContent">
 
         </div>
 
@@ -268,7 +271,7 @@
             </div>
 
             <div class="row mb-4">
-                <p>© 2021 <a class="foot-link" href="#">Jonas Souza</a></p>
+                <p>© <span id="year"></span> <a class="foot-link" href="#">Jonas Souza</a></p>
             </div>
 
         </div>
@@ -280,6 +283,20 @@
         <button class="back-to-top d-none" id="btnBackToTop">
             <span class="fas fa-chevron-up"></span>
         </button>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modalAppContainer" class="modal-app-container"> 
+        <div class="modal-app-content">
+            <span class="modal-app-close">&times;</span>
+            <div class="modal-app-inner">
+                <iframe
+                id="modalAppIframe"
+                src=""
+                frameborder="0"
+                ></iframe>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery -->

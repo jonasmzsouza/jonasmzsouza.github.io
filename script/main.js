@@ -1,49 +1,53 @@
-import * as script from './script.js';
+import * as script from "./script.js";
 
-$('#navItemHome').click(() => {
-	script.navItem('home');
-})
+$(".navbar-brand").click(() => {
+  script.navItem("home");
+});
 
-$('#navItemAbout').click(() => {
-	script.navItem('about');
-})
+$("#navItemHome").click(() => {
+  script.navItem("home");
+});
 
-$('#navItemPortfolio').click(() => {
-	script.navItem('portfolio');
-})
+$("#navItemAbout").click(() => {
+  script.navItem("about");
+});
 
-$('#footerItemHome').click(() => {
-	script.navItem('home');
-})
+$("#navItemPortfolio").click(() => {
+  script.navItem("portfolio");
+});
 
-$('#footerItemAbout').click(() => {
-	script.navItem('about');
-})
+$("#footerItemHome").click(() => {
+  script.navItem("home");
+});
 
-$('#footerItemPortfolio').click(() => {
-	script.navItem('portfolio');
-})
+$("#footerItemAbout").click(() => {
+  script.navItem("about");
+});
 
-$('#profile').click(() => {
-	script.loadAboutContent('profile');
-})
+$("#footerItemPortfolio").click(() => {
+  script.navItem("portfolio");
+});
 
-$('#contact').click(() => {
-	script.loadAboutContent('contact');
-})
+$("#profile").click(() => {
+  script.loadAboutContent("profile");
+});
 
-$('#education').click(() => {
-	script.loadAboutContent('education');
-})
+$("#contact").click(() => {
+  script.loadAboutContent("contact");
+});
 
-$('#experience').click(() => {
-	script.loadAboutContent('experience');
-})
+$("#education").click(() => {
+  script.loadAboutContent("education");
+});
 
-$('#skills').click(() => {
-	script.loadAboutContent('skills');
-})
+$("#experience").click(() => {
+  script.loadAboutContent("experience");
+});
 
-$('#certification').click(() => {
-	script.loadAboutContent('certification');
-})
+$("#skills").click(() => {
+  script.loadAboutContent("skills");
+});
+
+$("#certification").click(() => {
+  script.loadAboutContent("certification");
+});

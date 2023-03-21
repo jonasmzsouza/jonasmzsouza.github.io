@@ -106,7 +106,7 @@
           "skill": "jQuery",
           "icon": "devicon-jquery-plain"
         },
-				{
+        {
           "skill": "TypeScript",
           "icon": "devicon-typescript-plain"
         },
@@ -114,7 +114,7 @@
           "skill": "Java",
           "icon": "devicon-java-plain"
         },
-				{
+        {
           "skill": "Spring",
           "icon": "devicon-spring-plain"
         },
@@ -126,23 +126,23 @@
           "skill": "PHP",
           "icon": "devicon-php-plain"
         },
-				{
+        {
           "skill": "WordPress",
           "icon": "devicon-wordpress-plain"
         },
-				{
+        {
           "skill": "Laravel",
           "icon": "devicon-laravel-plain"
         },
-				{
+        {
           "skill": "NPM",
           "icon": "devicon-npm-original-wordmark"
         },
-				{
+        {
           "skill": "Yarn",
           "icon": "devicon-yarn-plain"
         },
-				{
+        {
           "skill": "NodeJS",
           "icon": "devicon-nodejs-plain"
         },
@@ -150,7 +150,7 @@
           "skill": "React",
           "icon": "devicon-react-plain"
         },
-				{
+        {
           "skill": "Jest",
           "icon": "devicon-jest-plain"
         },
@@ -162,7 +162,7 @@
           "skill": "Oracle",
           "icon": "devicon-oracle-plain"
         },
-				{
+        {
           "skill": "PostgreSQL",
           "icon": "devicon-postgresql-plain"
         }
@@ -172,7 +172,7 @@
           "skill": "VSCode",
           "icon": "devicon-vscode-plain"
         },
-				{
+        {
           "skill": "Git",
           "icon": "devicon-git-plain"
         },
@@ -180,19 +180,19 @@
           "skill": "GitHub",
           "icon": "devicon-github-plain"
         },
-				{
+        {
           "skill": "GitLab",
           "icon": "devicon-gitlab-plain"
         },
-				{
+        {
           "skill": "Bitbucket",
           "icon": "devicon-bitbucket-original"
         },
-				{
+        {
           "skill": "Heroku",
           "icon": "devicon-heroku-original"
         },
-				{
+        {
           "skill": "Jupyter",
           "icon": "devicon-jupyter-plain"
         },
@@ -200,17 +200,17 @@
           "skill": "Trello",
           "icon": "devicon-trello-plain"
         },
-				{
+        {
           "skill": "Photoshop",
           "icon": "devicon-photoshop-plain"
         },
         {
           "skill": "Figma",
-          "icon": "devicon-figma-plain" 
+          "icon": "devicon-figma-plain"
         },
-				{
+        {
           "skill": "Canva",
-          "icon": "devicon-canva-original" 
+          "icon": "devicon-canva-original"
         }
       ]
     }
@@ -363,11 +363,88 @@
   ],
   "portfolio": [
     {
+      "title": "JMSCalculator",
+      "imageSrc": "./assets/images/jmscalculator.jpg",
+      "description": "A calculator application with basic operations and other operations such as percentage, power, as well as sound, date and time.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/jmscalculator",
+      "appUrl": "https://jmscalculator.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Loja Virtual",
+      "imageSrc": "./assets/images/virtual-store.jpg",
+      "description": "A calculator application with others fucntions as: percentage, power .",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210929/lojavirtual",
+      "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+      "isMobileApp": true,
+      "languages": [
+        {
+          "name": "React Native",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Navigation Login",
+      "imageSrc": "./assets/images/navigation-login.jpg",
+      "description": "A simple mobile app login system with two screens: login and welcome.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210816/navigationlogin",
+      "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+      "isMobileApp": true,
+      "languages": [
+        {
+          "name": "React Native",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "AsyncStorage",
+      "imageSrc": "./assets/images/persistence-asyncstorage.jpg",
+      "description": "A Simple Mobile Data Persistence App with AsyncStorage.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210811/persistencia",
+      "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+      "isMobileApp": true,
+      "languages": [
+        {
+          "name": "React Native",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
       "title": "SGP - Presentation",
       "imageSrc": "./assets/images/sgp.jpg",
-      "description": "It is a landing page developed with HTML5/CSS3 presentation for the 1st Sprint of Challenge B2W with the theme: Employee Experience. The Challenge with B2W is part of an evaluation of the 1st year of Technology in System Analysis and Development at FIAP",
+      "description": "A landing page presentation to show the idea of a Challenge FIAP solution with B2W with the theme: Employee Experience.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/sgp-presentation",
-      "siteUrl": "https://jonasmzsouza.github.io/sgp-presentation",
+      "appUrl": "https://jonasmzsouza.github.io/sgp-presentation",
+      "isMobileApp": false,
       "languages": [
         {
           "name": "HTML",
@@ -382,9 +459,10 @@
     {
       "title": "Coronapp",
       "imageSrc": "./assets/images/coronapp.jpg",
-      "description": "It is a landing page developed with HTML5/CSS3 about the Corona Challenge for the second evaluation of the Responsive Web Development course of the Technology in Analysis and System Development course at FIAP. The Corona Challenge consists of presenting a solution to the impacts caused by Covid-19.",
+      "description": "A landing page developed about the Corona Challenge that consists of presenting a solution to the impacts caused by Covid-19.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/coronapp",
-      "siteUrl": "https://jonasmzsouza.github.io/coronapp",
+      "appUrl": "https://jonasmzsouza.github.io/coronapp",
+      "isMobileApp": false,
       "languages": [
         {
           "name": "HTML",
@@ -399,9 +477,10 @@
     {
       "title": "Filmov",
       "imageSrc": "./assets/images/filmov.jpg",
-      "description": "A website for Movies and Series developed using only HTML5/CSS3 for the first evaluation of the Responsive Web Development discipline of the Technology Analysis and System Development course at FIAP.",
+      "description": "A streaming site template containing information about movies, series and contact form.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/filmov",
-      "siteUrl": "https://jonasmzsouza.github.io/filmov",
+      "appUrl": "https://jonasmzsouza.github.io/filmov",
+      "isMobileApp": false,
       "languages": [
         {
           "name": "HTML",
@@ -410,6 +489,212 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Personal Budget",
+      "imageSrc": "./assets/images/personal-budget.jpg",
+      "description": "A personal control site for recording expenses.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section09/app-personal-budget",
+      "appUrl": "https://personal-budget-project.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Kill Mosquito",
+      "imageSrc": "./assets/images/kill-mosquito.jpg",
+      "description": "A website for a game consisting of attempts to kill mosquitoes on various levels.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-kill-mosquito",
+      "appUrl": "https://kill-mosquito.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Calculator",
+      "imageSrc": "./assets/images/app-calculator.jpg",
+      "description": "A calculator application with basic operations.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-calculator",
+      "appUrl": "https://app-calculator-project.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "Spotify Clone",
+      "imageSrc": "./assets/images/spotify-clone.jpg",
+      "description": "A clone of the Spotify site.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/spotify-project",
+      "appUrl": "https://spotify-clone-proj.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Finans",
+      "imageSrc": "./assets/images/finans.jpg",
+      "description": "A sample finance site for those interested in saving money.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/finans-project",
+      "appUrl": "https://finans-proj.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "National Museum",
+      "imageSrc": "./assets/images/national-museum.jpg",
+      "description": "A fictitious website template for the national museum located in Rio de Janeiro/Brazil.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section06/national-museum-project",
+      "appUrl": "https://national-museum-proj.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Chalet Hotel",
+      "imageSrc": "./assets/images/chalet-hotel.jpg",
+      "description": "A chalet hotel website template for those interested in taking some time off for leisure.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/chalet-hotel-project",
+      "appUrl": "https://chalet-hotel.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Notícias Cidade",
+      "imageSrc": "./assets/images/city-news.jpg",
+      "description": "A sample city news site.A sample city news site.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/city-news-project",
+      "appUrl": "https://city-news.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "TecBlog",
+      "imageSrc": "./assets/images/tecblog.jpg",
+      "description": "A basic blog website template.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/tecblog-project",
+      "appUrl": "https://tecblog-project.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Anna Bella Modelo",
+      "imageSrc": "./assets/images/anna-bella-modelo.jpg",
+      "description": "A portfolio website template for a professional model.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/anna-bella-project",
+      "appUrl": "https://anna-bella-modelo.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "UNES Universidade",
+      "imageSrc": "./assets/images/unes-universidade.jpg",
+      "description": "A university website template developed only in html.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section03/unes-project",
+      "appUrl": "https://unes-universidade.netlify.app/",
+      "isMobileApp": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
         }
       ]
     }
