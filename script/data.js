@@ -45,8 +45,8 @@ function getGeneralData() {
   $(".box").attr(
     "aria-label",
     isDefaultLanguage
-      ? "Imagem de fundo de tecnologia nas cores laranja, preto e roxo"
-      : "Technology background image in orange, black and purple"
+      ? "Imagem de fundo de tecnologia"
+      : "Technology background image"
   );
   $(".apresentation")
     .find("img")

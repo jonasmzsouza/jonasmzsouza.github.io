@@ -1,5 +1,5 @@
 body {
-  background-color: #10161c;
+  background-color: #0e1217;
   color: #fff;
 }
 
@@ -7,7 +7,7 @@ body {
 NAVBAR
 -------------------------------------------- */
 .navbar {
-  background-color: #0d1117;
+  background-color: #0a0a0a;
 }
 
 .navbar hr {
@@ -67,13 +67,17 @@ SIDE LIST / CARD
   background-color: #141a22;
 }
 
-#about ul li a:hover {
+#about .list-group-item a {
   color: #fff;
-  background-color: #0d1117;
+}
+
+.about-menu .list-group-item:hover {
+  background-color: #0a0a0a;
 }
 
 .card-header {
-  border-color: #4d5863;
+  color: #fff;
+  border-color: #182129;
 }
 
 .list-unstyled li {
@@ -89,22 +93,32 @@ SIDE LIST / CARD
   background-color: #0d1117;
 }
 
-.card,
-.list-group-item {
-  border-color: #4d5863;
+#about .card {
+  background: #0e1217;
+}
+
+#about .card,
+#about .list-group-item {
+  border-color: #182129;
   color: #fff;
 }
 
 .active-page {
   border-left-color: #fff;
-  background-color: #0d1117;
+  background-color: #0a0a0a;
+}
+
+#portfolioContent .card {
+  background-color: #1c1f26;
+  border-color: #21242b;
 }
 
 /* --------------------------------------------
 ABOUT MENU
 -------------------------------------------- */
 #aboutItem {
-  border-color: #4d5863;
+  border-color: #141a22;
+  background: #0e1217;
 }
 
 #aboutContent hr {
@@ -180,7 +194,12 @@ footer {
 /* --------------------------------------------
 DEVICES
 -------------------------------------------- */
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
+  .nav-link:hover {
+    background-color: #0e1217;
+    color: #fff;
+  }
+  
   .box img {
     -webkit-box-shadow: 0 0 0 2rem #0d1117;
     box-shadow: 0 0 0 2rem #0d1117;

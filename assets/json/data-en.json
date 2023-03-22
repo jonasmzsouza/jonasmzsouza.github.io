@@ -385,7 +385,7 @@
       ]
     },
     {
-      "title": "Loja Virtual",
+      "title": "Virtual Store",
       "imageSrc": "./assets/images/virtual-store.jpg",
       "description": "A calculator application with others fucntions as: percentage, power .",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210929/lojavirtual",
@@ -631,7 +631,7 @@
       ]
     },
     {
-      "title": "Notícias Cidade",
+      "title": "City News",
       "imageSrc": "./assets/images/city-news.jpg",
       "description": "A sample city news site.A sample city news site.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/city-news-project",
@@ -667,7 +667,7 @@
       ]
     },
     {
-      "title": "Anna Bella Modelo",
+      "title": "Anna Bella Model",
       "imageSrc": "./assets/images/anna-bella-modelo.jpg",
       "description": "A portfolio website template for a professional model.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/anna-bella-project",
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "title": "UNES Universidade",
+      "title": "UNES University",
       "imageSrc": "./assets/images/unes-universidade.jpg",
       "description": "A university website template developed only in html.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section03/unes-project",
