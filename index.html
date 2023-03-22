@@ -317,6 +317,24 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
     </script>
 
+    <script>
+        /**
+         * Function to open the modal
+         * @params element
+         */
+        function openAppModal(element) {
+            var appUrl = $(element).attr("data-src");
+            const body = document.body;
+
+            if (appUrl) {
+            $("#modalAppContainer").css("display", "block");
+            $("#modalAppIframe").attr("src", appUrl);
+            $("body").css("overflowY", "hidden");
+            return false;
+            }
+        }
+    </script>
+
     <!-- Custom JS -->
     <script type="module" src="script/main.js"></script>
 

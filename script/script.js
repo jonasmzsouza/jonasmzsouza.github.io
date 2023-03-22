@@ -207,38 +207,19 @@ $(btnBackToTop).click(() => {
   goTo("home");
 });
 
-$(window).on("load", () => {
-
-  /**
-   * Listens for the click event to open the modal
-   */
-  $("a.app-modal").click(function () {
-    var appUrl = $(this).attr("data-src");
-    const body = document.body;
-
-    if (appUrl) {
-      $("#modalAppContainer").css("display", "block");
-      $("#modalAppIframe").attr("src", appUrl);
-      $("body").css("overflowY", "hidden");
-      return false;
-    }
-  });
-
-  /**
-   * Close modal image
-   */
-  $(".modal-app-close").click(function () {
-    $("#modalAppContainer").css("display", "none");
-    $("#modalAppIframe").attr("src", "");
-    $("body").css("overflowY", "");
-  });
-
-  
-  /**
-   * Date in footer
-   */
-  let year = $.datepicker.formatDate("yy", new Date());
-  $("#year").html(year);
+/**
+ * Close modal
+ */
+$(".modal-app-close").click(function () {
+  $("#modalAppContainer").css("display", "none");
+  $("#modalAppIframe").attr("src", "");
+  $("body").css("overflowY", "");
 });
+
+/**
+ * Date in footer
+ */
+let year = $.datepicker.formatDate("yy", new Date());
+$("#year").html(year);
 
 export { getCurrentLanguage, navItem, loadAboutContent, isDefaultLanguage };

@@ -154,6 +154,7 @@ function getPortfolio(objJSONDataPage) {
     let appUrl;
     if (pageItem.isMobileApp) {
       appUrl = elementData("a", "", "link-item app-modal");
+      appUrl.setAttribute("onclick", 'openAppModal(this)');
       appUrl.setAttribute("data-src", pageItem.appUrl);
       appUrl.appendChild(app);
     } else {
