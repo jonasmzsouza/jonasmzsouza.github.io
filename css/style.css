@@ -19,6 +19,7 @@ NAVBAR
 a,
 .nav-link {
   text-decoration: none;
+  border: none;
 }
 
 a:hover {
@@ -323,14 +324,15 @@ PORTFOLIO
 }
 
 .project-languages {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 
 .project-language-item {
-  margin: 2px;
   padding: 10px;
   width: 30px;
   height: 30px;
@@ -369,6 +371,13 @@ PORTFOLIO
 /* --------------------------------------------
 SCROLLBAR
 -------------------------------------------- */
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  width: 12px;
+  border-radius: 15px;
+}
+
 .scrollbar {
   height: 70vh;
   overflow: auto;
@@ -378,7 +387,6 @@ SCROLLBAR
 
 .scrollbar-color::-webkit-scrollbar-track,
 .scrollbar-color::-webkit-scrollbar {
-  width: 12px;
   border-radius: 0 15px 15px 0;
 }
 
