@@ -363,13 +363,55 @@
   ],
   "portfolio": [
     {
+      "title": "Dio Bank",
+      "imageSrc": "./assets/images/dio-bank.jpg",
+      "description": "Uma simples aplicação web bancária que exibe os dados da conta do usuário. \n<br>\n email: user@email.com \n senha: 123456",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/dio-bank",
+      "appUrl": "https://dio-bank.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "ReactJS",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "devicon-nodejs-plain"
+        },
+        {
+          "name": "ExpressJS",
+          "icon": "devicon-express-original"
+        },
+        {
+          "name": "Jest",
+          "icon": "devicon-jest-plain"
+        },
+        {
+          "name": "SQLite",
+          "icon": "devicon-sqlite-plain"
+        }
+      ]
+    },
+    {
       "title": "JMSCalculator",
       "imageSrc": "./assets/images/jmscalculator.jpg",
       "description": "Uma aplicação de calculadora com operações básicas e outras operações tais como porcentagem, potência, bem como som, data e hora.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/jmscalculator",
       "appUrl": "https://jmscalculator.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -385,13 +427,163 @@
       ]
     },
     {
+      "title": "FECAP - ENEM 2022",
+      "imageSrc": "./assets/images/fecap-enem-2022.jpg",
+      "description": "Uma landing page desenvolvida para área comercial FECAP para a campanha de captação de alunos concluintes do ensino médio que prestarão o exame ENEM.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-enem-2022",
+      "appUrl": "https://fecap-enem-2022.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP - ENADE 2022",
+      "imageSrc": "./assets/images/fecap-enade-2022.jpg",
+      "description": "Uma landing page desenvolvida para a campanha de incentivo ao alunos FECAP a prestarem o exame ENADE.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-enade-2022",
+      "appUrl": "https://fecap-enade-2022.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP - BGS 2022",
+      "imageSrc": "./assets/images/fecap-bgs-2022.jpg",
+      "description": "Uma landing page desenvolvida para a área comercial da FECAP para sua presença na conferência na BGS.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-bgs-2022",
+      "appUrl": "https://fecap-bgs-2022.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP Store",
+      "imageSrc": "./assets/images/fecap-store.jpg",
+      "description": "Uma landing page desenvolvida como um catálogo de produtos comercializados pela Livraria BrainStore na FECAP.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-store",
+      "appUrl": "https://fecap-store.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP - 120 anos",
+      "imageSrc": "./assets/images/fecap-120-anos.jpg",
+      "description": "Uma landing page desenvolvida em comemoração aos 120 anos da instituição FECAP.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-120-anos",
+      "appUrl": "https://fecap-120-anos.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
       "title": "Loja Virtual",
       "imageSrc": "./assets/images/virtual-store.jpg",
       "description": "Um app mobile simples de loja virtual de frutas, com sistema de carrinho utilizando o Context.",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210929/lojavirtual",
       "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
       "isMobileApp": true,
-      "languages": [
+      "technologies": [
         {
           "name": "React Native",
           "icon": "devicon-react-original"
@@ -405,11 +597,11 @@
     {
       "title": "Navigation Login",
       "imageSrc": "./assets/images/navigation-login.jpg",
-      "description": "Um app mobile simples de sistema de login com duas telas: login e boas vindas.",
+      "description": "Um app mobile simples de sistema de login com duas telas: login e boas vindas. \n<br>\n login: fiap \n senha: fiap",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210816/navigationlogin",
       "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
       "isMobileApp": true,
-      "languages": [
+      "technologies": [
         {
           "name": "React Native",
           "icon": "devicon-react-original"
@@ -427,7 +619,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210811/persistencia",
       "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
       "isMobileApp": true,
-      "languages": [
+      "technologies": [
         {
           "name": "React Native",
           "icon": "devicon-react-original"
@@ -445,7 +637,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/sgp-presentation",
       "appUrl": "https://jonasmzsouza.github.io/sgp-presentation",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -463,7 +655,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/coronapp",
       "appUrl": "https://jonasmzsouza.github.io/coronapp",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -481,7 +673,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/filmov",
       "appUrl": "https://jonasmzsouza.github.io/filmov",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -493,13 +685,13 @@
       ]
     },
     {
-      "title": "Personal Budget",
-      "imageSrc": "./assets/images/personal-budget.jpg",
-      "description": "Um site de controle pessoal para registro de despesas.",
-			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section09/app-personal-budget",
-      "appUrl": "https://personal-budget-project.netlify.app/",
+      "title": "Gasoline or Alcohol",
+      "imageSrc": "./assets/images/gasoline-alcohol.jpg",
+      "description": "Uma aplicação hibrida que compara qual combustível usar ao receber os preços dos combustíveis.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section22/gasolineAlcohol",
+      "appUrl": "https://gasolineoralcohol.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -507,6 +699,186 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "Ionic",
+          "icon": "devicon-ionic-original"
+        },
+        {
+          "name": "AngularJS",
+          "icon": "devicon-angularjs-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Dashboard",
+      "imageSrc": "./assets/images/app-dashboard.jpg",
+      "description": "Uma aplicação web de um painel de vendas que recupera dados do banco de dados via Ajax com jQuery.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section17/app-dashboard",
+      "appUrl": "https://app-dashboard.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Task List",
+      "imageSrc": "./assets/images/app-task-list.jpg",
+      "description": "Uma aplicação web CRUD para uma lista de tarefas. PHP e MySQL com PDO.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section15/app-task-list",
+      "appUrl": "https://app-task-list.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Address Search",
+      "imageSrc": "./assets/images/app-address-search.jpg",
+      "description": "Uma aplicação básica de busca de endereços pelo cep através de consumo de API ViaCEP com AJAX.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section14/app-address-search",
+      "appUrl": "https://app-address-search.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Send Email",
+      "imageSrc": "./assets/images/app-send-email.jpg",
+      "description": "Uma aplicação simples para o envio de e-mails usando a biblioteca PHPMailer + Gmail.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section12/app-send-mail",
+      "appUrl": "https://app-send-mail.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Help Desk",
+      "imageSrc": "./assets/images/app-help-desk.jpg",
+      "description": "Uma aplicação simples para abertura e visualização de chamados de suporte com controle de acesso e dados salvos em arquivo de texto. \n<br>\n email: user@test.com \n senha: 1234",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section10/app-help-desk",
+      "appUrl": "https://app-help-desk.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        }
+      ]
+    },
+    {
+      "title": "Personal Budget",
+      "imageSrc": "./assets/images/personal-budget.jpg",
+      "description": "Um site de controle pessoal para registro de despesas.",
+			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section09/app-personal-budget",
+      "appUrl": "https://personal-budget-project.netlify.app/",
+      "isMobileApp": false,
+			"technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         },
         {
           "name": "JavaScript",
@@ -521,7 +893,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-kill-mosquito",
       "appUrl": "https://kill-mosquito.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -529,6 +901,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         },
         {
           "name": "JavaScript",
@@ -543,7 +919,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-calculator",
       "appUrl": "https://app-calculator-project.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -551,6 +927,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         },
         {
           "name": "JavaScript",
@@ -565,7 +945,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/spotify-project",
       "appUrl": "https://spotify-clone-proj.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -573,6 +953,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         }
       ]
     },
@@ -583,7 +967,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/finans-project",
       "appUrl": "https://finans-proj.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -591,6 +975,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         }
       ]
     },
@@ -601,7 +989,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section06/national-museum-project",
       "appUrl": "https://national-museum-proj.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -619,7 +1007,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/chalet-hotel-project",
       "appUrl": "https://chalet-hotel.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -637,7 +1025,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/city-news-project",
       "appUrl": "https://city-news.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -655,7 +1043,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/tecblog-project",
       "appUrl": "https://tecblog-project.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -673,7 +1061,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/anna-bella-project",
       "appUrl": "https://anna-bella-modelo.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -691,7 +1079,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section03/unes-project",
       "appUrl": "https://unes-universidade.netlify.app/",
       "isMobileApp": false,
-			"languages": [
+			"technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"

@@ -113,6 +113,10 @@ SIDE LIST / CARD
   border-color: #21242b;
 }
 
+#portfolioContent .card:hover {
+  box-shadow: 0 0 10px 1px #ffffff2e;
+}
+
 /* --------------------------------------------
 ABOUT MENU
 -------------------------------------------- */

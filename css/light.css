@@ -113,6 +113,10 @@ SIDE LIST / CARD
   border-color: #f8f9fa;
 }
 
+#portfolioContent .card:hover {
+  box-shadow: 0 0 10px 1px #1a1d225d;
+}
+
 /* --------------------------------------------
 ABOUT MENU
 -------------------------------------------- */
@@ -141,7 +145,7 @@ ABOUT MENU
   color: #fff;
 }
 
-.project-language-item {
+.project-technology-item {
   color: #5a5a5a;
 }
 

@@ -166,12 +166,12 @@ function changeFlag(newLangague) {
  * Theme switching function
  */
 $(btnLight).click(() => {
-  let moon = "fa-moon";
-  let sun = "fa-sun";
+  let lightOff = "far fa-lightbulb";
+  let lightOn = "fas fa-lightbulb";
   const span = $(btnLight).find("span");
   span.toggleClass("active-light");
   let activeLight = span.hasClass("active-light");
-  activeLight ? toggleIcon(span, moon, sun) : toggleIcon(span, sun, moon);
+  activeLight ? toggleIcon(span, lightOff, lightOn) : toggleIcon(span, lightOn, lightOff);
   let theme = activeLight ? "light" : "dark";
   $(dataTheme).attr("href", "css/" + theme + ".css");
   navCollapsed();

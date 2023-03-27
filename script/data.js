@@ -36,10 +36,15 @@ function getGeneralData() {
   );
   $("#btnLanguage")
     .find("img")
-    .attr(
-      "alt",
-      isDefaultLanguage ? "Versão em Português" : "Version in English"
-    );
+    .attr({
+      "alt":
+      isDefaultLanguage ? "Versão em Português" : "Version in English",
+      "title": isDefaultLanguage ? "Alterne o idioma" : "Change Language",
+  });
+  $("#btnLight").attr(
+    "title",
+    isDefaultLanguage ? "Alterne o tema" : "Change the theme"
+  );
 
   // APRESENTATION
   $(".box").attr(
@@ -129,19 +134,23 @@ function getPortfolio(objJSONDataPage) {
     cardImgTop.setAttribute("loading", "lazy");
     cardImgTop.setAttribute("alt", pageItem.title + " screenshot");
 
-    let cardLanguages = elementData("div", "", "project-languages");
-    pageItem.languages.forEach((language) => {
-      let languageIcon = elementData("span", "", language.icon);
-			let languageItem = elementData("div", "", "project-language-item");
-			languageItem.appendChild(languageIcon)
-			languageItem.setAttribute("title", language.name);
-      cardLanguages.appendChild(languageItem);
+    let cardTechnologies = elementData("div", "", "project-technologies");
+    pageItem.technologies.forEach((technology) => {
+      let technologyIcon = elementData("span", "", technology.icon);
+      let technologyItem = elementData("div", "", "project-technology-item");
+      technologyItem.appendChild(technologyIcon);
+      technologyItem.setAttribute("title", technology.name);
+      cardTechnologies.appendChild(technologyItem);
     });
 
-    let cardText = elementData("p", pageItem.description, "card-text");
-
     let cardBody = elementData("div", "", "card-body");
-    cardBody.appendChild(cardText);
+    let str = pageItem.description;
+    let description = str.split("\n");
+    for (let p in description) {
+      let cardText = elementData("p", pageItem.description, "card-text");
+      cardText.innerHTML = description[p];
+      cardBody.appendChild(cardText);
+    }
 
     let repo = elementData("span", "<b>repo</b>", "fab fa-git-alt");
     let codeHosting = elementData("a", "", "link-item");
@@ -150,11 +159,15 @@ function getPortfolio(objJSONDataPage) {
     codeHosting.setAttribute("target", "_blank");
     codeHosting.appendChild(repo);
 
-    let app = elementData("span", "<b>app</b>", pageItem.isMobileApp ? "fas fa-mobile-alt" : "fas fa-globe");
+    let app = elementData(
+      "span",
+      "<b>app</b>",
+      pageItem.isMobileApp ? "fas fa-mobile-alt" : "fas fa-globe"
+    );
     let appUrl;
     if (pageItem.isMobileApp) {
       appUrl = elementData("a", "", "link-item app-modal");
-      appUrl.setAttribute("onclick", 'openAppModal(this)');
+      appUrl.setAttribute("onclick", "openAppModal(this)");
       appUrl.setAttribute("data-src", pageItem.appUrl);
       appUrl.appendChild(app);
     } else {
@@ -170,7 +183,7 @@ function getPortfolio(objJSONDataPage) {
     projectDate.appendChild(appUrl);
 
     let cardFooter = elementData("div", "", "card-footer");
-    cardFooter.appendChild(cardLanguages);
+    cardFooter.appendChild(cardTechnologies);
     cardFooter.appendChild(projectDate);
 
     let card = elementData("div", "", "card h-100");

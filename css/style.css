@@ -287,22 +287,32 @@ PORTFOLIO
   padding: 2rem;
 }
 
-.card img {
+#portfolioContent .card img {
   margin: 0.5rem;
   border-radius: 15px;
 }
 
-.card-footer {
+#portfolioContent .card-text {
+  margin-bottom: 0;
+}
+
+#portfolioContent .card-footer {
   border: none;
 }
 
 #portfolioContent .card {
   border-radius: 15px;
-  transition: 0.5s;
+  transition: all 0.5s;
+  
 }
 
 #portfolioContent .card:hover {
-  transform: translateY(-10px);
+  -webkit-transform: scale(1.02, 1.02);
+  -ms-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #portfolioContent .card-title {
@@ -323,7 +333,7 @@ PORTFOLIO
   border-radius: 0 0 15px 15px;
 }
 
-.project-languages {
+.project-technologies {
   margin-bottom: 10px;
   padding-bottom: 5px;
   display: flex;
@@ -332,7 +342,7 @@ PORTFOLIO
   overflow: auto;
 }
 
-.project-language-item {
+.project-technology-item {
   padding: 10px;
   width: 30px;
   height: 30px;

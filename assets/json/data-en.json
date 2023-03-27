@@ -4,7 +4,7 @@
       "name": "Jonas Muniz de Souza",
       "location": "Itapevi/SP",
       "email": "jonasmzsouza@gmail.com",
-      "description": "Married, father of a boy, born to a Northeasterner father and a Southern mother, I was born and raised in the West Zone of the São Paulo Metropolitan Region. \n I had contact with computers in high school through courses. Since then I awakened a passion for technology which led me to major in Information Systems where I had initial experiences with web development. \n After almost three years of experience in technical support, I embraced the opportunity of a new challenge exercising the function of administrative analyst in a retail business, where I performed computer maintenance and managed social networks, among other tasks, and in parallel, I obtained freelance experience in Web Design developing posters, banners, flyers, folders and arts for religious organizations. \n I pursued a new degree in Systems Analysis and Development Technology with the hands-on model in information technology experience. \n My qualifications can be summarized as follows: \n <ul><li>Acting for over three years in projects in business understanding, requirements gathering, participation in meetings and solution analysis for clients such as: B2W and Plusoft as part of academic project, FECAP as CLT professional.</li><li>Performance in prototyping, design and web development, performing the structuring, stylization, layout and scripts.</li><li>Knowledge in MySQL (phpmyadmin), PostrgeSQL (pgAdmin) and Oracle (Data Modeler and SQL Developer) databases. </li><li>Knowledge in AI and IoT architectures, developing chatbots and flows, integrating services between: NodeRED, IBM Watson, Telegram, Twitter and Arduino, as well as in developing circuits and programs in C++ for Arduino through the Tinkercad program.</li><li>Knowledge and development of Mobile applications through React Native.</li><li>Knowledge in markup, styling and development languages and their libraries and frameworks, such as: HTML, CSS, Bootstrap, SASS, JavaScript, jQuery, TypeScript, React, PHP, Laravel, Java, Spring.</li><li>Knowledge of prototyping, development and cloud tools, environments and platforms: Ubuntu (Terminal), Figma, VSCode, Node-RED, Eclipse, SpringToolSuite, Node.js, Heroku, Netlify, Vercel and Railway.</li><li>Knowledge of programming and development methodologies: SCRUM, MVC, UML, Ajax.</li><li>Knowledge in versioning system and source code hosting platform: Git, Github and GitLab.</li></ul> \n Besides web development, my passion extends to places connected to nature, animals, culture and music where I play guitar, keyboard and make compositions."
+      "description": "Married, father of a boy, born to a Northeasterner father and a Southern mother, I was born and raised in the West Zone of the São Paulo Metropolitan Region. \n I had contact with computers in high school through courses. Since then I awakened a passion for technology which led me to major in Information Systems where I had initial experiences with web development. \n After almost three years of experience in technical support, I embraced the opportunity of a new challenge exercising the function of administrative analyst in a retail business, where I performed computer maintenance and managed social networks, among other tasks, and in parallel, I obtained freelance experience in Web Design developing posters, banners, flyers, folders and arts for religious organizations. \n I pursued a new degree in Systems Analysis and Development Technology with the hands-on model in information technology experience. \n My qualifications can be summarized as follows: \n <ul><li>Acting for over three years in projects in business understanding, requirements gathering, participation in meetings and solution analysis for clients such as: B2W and Plusoft as part of academic project, FECAP as CLT professional.</li><li>Performance in prototyping, design and web development, performing the structuring, stylization, layout and scripts.</li><li>Knowledge in MySQL (phpmyadmin), PostrgeSQL (pgAdmin) and Oracle (Data Modeler and SQL Developer) databases. </li><li>Knowledge in AI and IoT architectures, developing chatbots and flows, integrating services between: NodeRED, IBM Watson, Telegram, Twitter and Arduino, as well as in developing circuits and programs in C++ for Arduino through the Tinkercad program.</li><li>Knowledge and development of Mobile applications through React Native.</li><li>Knowledge in markup, styling and development technologies and their libraries and frameworks, such as: HTML, CSS, Bootstrap, SASS, JavaScript, jQuery, TypeScript, React, PHP, Laravel, Java, Spring.</li><li>Knowledge of prototyping, development and cloud tools, environments and platforms: Ubuntu (Terminal), Figma, VSCode, Node-RED, Eclipse, SpringToolSuite, Node.js, Heroku, Netlify, Vercel and Railway.</li><li>Knowledge of programming and development methodologies: SCRUM, MVC, UML, Ajax.</li><li>Knowledge in versioning system and source code hosting platform: Git, Github and GitLab.</li></ul> \n Besides web development, my passion extends to places connected to nature, animals, culture and music where I play guitar, keyboard and make compositions."
     }
   ],
   "education": [
@@ -363,13 +363,55 @@
   ],
   "portfolio": [
     {
+      "title": "Dio Bank",
+      "imageSrc": "./assets/images/dio-bank.jpg",
+      "description": "A simple banking web application that displays the user's account data. \n<br>\n email: user@email.com \n password: 123456",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/dio-bank",
+      "appUrl": "https://dio-bank.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "ReactJS",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "devicon-nodejs-plain"
+        },
+        {
+          "name": "ExpressJS",
+          "icon": "devicon-express-original"
+        },
+        {
+          "name": "Jest",
+          "icon": "devicon-jest-plain"
+        },
+        {
+          "name": "SQLite",
+          "icon": "devicon-sqlite-plain"
+        }
+      ]
+    },
+    {
       "title": "JMSCalculator",
       "imageSrc": "./assets/images/jmscalculator.jpg",
       "description": "A calculator application with basic operations and other operations such as percentage, power, as well as sound, date and time.",
       "codeHostingUrl": "https://github.com/jonasmzsouza/jmscalculator",
       "appUrl": "https://jmscalculator.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -385,13 +427,163 @@
       ]
     },
     {
+      "title": "FECAP - ENEM 2022",
+      "imageSrc": "./assets/images/fecap-enem-2022.jpg",
+      "description": "A landing page developed for FECAP's commercial area for the campaign to attract high school graduates who will take the ENEM exam.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-enem-2022",
+      "appUrl": "https://fecap-enem-2022.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP - ENADE 2022",
+      "imageSrc": "./assets/images/fecap-enade-2022.jpg",
+      "description": "A landing page developed for the campaign to encourage FECAP students to take the ENADE exam.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-enade-2022",
+      "appUrl": "https://fecap-enade-2022.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP - BGS 2022",
+      "imageSrc": "./assets/images/fecap-bgs-2022.jpg",
+      "description": "A landing page developed for the commercial area of FECAP for their presence at the conference at BGS.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-bgs-2022",
+      "appUrl": "https://fecap-bgs-2022.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP Store",
+      "imageSrc": "./assets/images/fecap-store.jpg",
+      "description": "A landing page developed as a catalog of products sold by BrainStore Bookstore at FECAP.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-store",
+      "appUrl": "https://fecap-store.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "FECAP - 120 years",
+      "imageSrc": "./assets/images/fecap-120-anos.jpg",
+      "description": "A landing page developed to celebrate the 120th anniversary of the FECAP institution.",
+      "codeHostingUrl": "https://gitlab.com/jonasmzsouza/fecap-120-anos",
+      "appUrl": "https://fecap-120-anos.vercel.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
       "title": "Virtual Store",
       "imageSrc": "./assets/images/virtual-store.jpg",
       "description": "A calculator application with others fucntions as: percentage, power .",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210929/lojavirtual",
       "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Floja-virtual%2BFsHNwSCiqI%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
       "isMobileApp": true,
-      "languages": [
+      "technologies": [
         {
           "name": "React Native",
           "icon": "devicon-react-original"
@@ -405,11 +597,11 @@
     {
       "title": "Navigation Login",
       "imageSrc": "./assets/images/navigation-login.jpg",
-      "description": "A simple mobile app login system with two screens: login and welcome.",
+      "description": "A simple mobile app login system with two screens: login and welcome. \n<br>\n login: fiap \n password: fiap",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210816/navigationlogin",
       "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fnavigation-login%2BrFAFUXuSH9%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
       "isMobileApp": true,
-      "languages": [
+      "technologies": [
         {
           "name": "React Native",
           "icon": "devicon-react-original"
@@ -427,7 +619,7 @@
 			"codeHostingUrl": "https://github.com/jonasmzsouza/fiap-tdsr-hmad/tree/master/20210811/persistencia",
       "appUrl": "https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40jonasmzsouza%2Fpersistencia---asyncstorage%2BSPwFS_ySmT%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
       "isMobileApp": true,
-      "languages": [
+      "technologies": [
         {
           "name": "React Native",
           "icon": "devicon-react-original"
@@ -445,7 +637,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/sgp-presentation",
       "appUrl": "https://jonasmzsouza.github.io/sgp-presentation",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -463,7 +655,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/coronapp",
       "appUrl": "https://jonasmzsouza.github.io/coronapp",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -481,7 +673,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/filmov",
       "appUrl": "https://jonasmzsouza.github.io/filmov",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -493,13 +685,13 @@
       ]
     },
     {
-      "title": "Personal Budget",
-      "imageSrc": "./assets/images/personal-budget.jpg",
-      "description": "A personal control site for recording expenses.",
-      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section09/app-personal-budget",
-      "appUrl": "https://personal-budget-project.netlify.app/",
+      "title": "Gasoline or Alcohol",
+      "imageSrc": "./assets/images/gasoline-alcohol.jpg",
+      "description": "A hybrid application that compares which fuel to use by receiving fuel prices.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section22/gasolineAlcohol",
+      "appUrl": "https://gasolineoralcohol.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -507,6 +699,186 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "Ionic",
+          "icon": "devicon-ionic-original"
+        },
+        {
+          "name": "AngularJS",
+          "icon": "devicon-angularjs-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Dashboard",
+      "imageSrc": "./assets/images/app-dashboard.jpg",
+      "description": "A web application of a sales dashboard retrieving data from the database via Ajax with jQuery.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section17/app-dashboard",
+      "appUrl": "https://app-dashboard.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Task List",
+      "imageSrc": "./assets/images/app-task-list.jpg",
+      "description": "A CRUD web application for a task list. PHP and MySQL with PDO.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section15/app-task-list",
+      "appUrl": "https://app-task-list.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Address Search",
+      "imageSrc": "./assets/images/app-address-search.jpg",
+      "description": "A basic address lookup application by zip code via consumption of the ViaCEP API with AJAX.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section14/app-address-search",
+      "appUrl": "https://app-address-search.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Send Email",
+      "imageSrc": "./assets/images/app-send-email.jpg",
+      "description": "A simple application for sending e-mails using the PHPMailer + Gmail library.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section12/app-send-mail",
+      "appUrl": "https://app-send-mail.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        }
+      ]
+    },
+    {
+      "title": "App Help Desk",
+      "imageSrc": "./assets/images/app-help-desk.jpg",
+      "description": "A simple application for opening and viewing support tickets with access control and data saved in a text file. \n<br>\n email: user@test.com \n password: 1234",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section10/app-help-desk",
+      "appUrl": "https://app-help-desk.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        }
+      ]
+    },
+    {
+      "title": "Personal Budget",
+      "imageSrc": "./assets/images/personal-budget.jpg",
+      "description": "A personal control site for recording expenses.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section09/app-personal-budget",
+      "appUrl": "https://personal-budget-project.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         },
         {
           "name": "JavaScript",
@@ -521,7 +893,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-kill-mosquito",
       "appUrl": "https://kill-mosquito.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -529,6 +901,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         },
         {
           "name": "JavaScript",
@@ -543,7 +919,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section08/app-calculator",
       "appUrl": "https://app-calculator-project.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -551,6 +927,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         },
         {
           "name": "JavaScript",
@@ -565,7 +945,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/spotify-project",
       "appUrl": "https://spotify-clone-proj.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -573,6 +953,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         }
       ]
     },
@@ -583,7 +967,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/finans-project",
       "appUrl": "https://finans-proj.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -591,6 +975,10 @@
         {
           "name": "CSS",
           "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
         }
       ]
     },
@@ -601,7 +989,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section06/national-museum-project",
       "appUrl": "https://national-museum-proj.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -619,7 +1007,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/chalet-hotel-project",
       "appUrl": "https://chalet-hotel.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -637,7 +1025,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section05/city-news-project",
       "appUrl": "https://city-news.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -655,7 +1043,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/tecblog-project",
       "appUrl": "https://tecblog-project.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -673,7 +1061,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section04/anna-bella-project",
       "appUrl": "https://anna-bella-modelo.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
@@ -691,7 +1079,7 @@
       "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section03/unes-project",
       "appUrl": "https://unes-universidade.netlify.app/",
       "isMobileApp": false,
-      "languages": [
+      "technologies": [
         {
           "name": "HTML",
           "icon": "devicon-html5-plain"
