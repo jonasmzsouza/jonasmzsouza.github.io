@@ -631,6 +631,36 @@
       ]
     },
     {
+      "title": "Portfolio",
+      "imageSrc": "./assets/images/jonasmzsouza.jpg",
+      "description": "Uma aplicação web para apresentação pessoal e apresentação de projetos desenvolvidos.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/jonasmzsouza.github.io",
+      "appUrl": "https://jonasmzsouza.github.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "jQuery",
+          "icon": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
       "title": "SGP - Apresentação",
       "imageSrc": "./assets/images/sgp.jpg",
       "description": "Uma landing page de apresentação para mostrar a idéia de uma solução do Challenge FIAP junto a B2W com o tema: Employee Experience.",
@@ -711,6 +741,40 @@
         {
           "name": "AngularJS",
           "icon": "devicon-angularjs-plain"
+        }
+      ]
+    },
+    {
+      "title": "Twitter Clone",
+      "imageSrc": "./assets/images/twitter-clone.jpg",
+      "description": "Uma aplicação web clone do twitter com padrão de arquitetura MVC, criada apenas para fins de estudo.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/main/section19/twitter-clone",
+      "appUrl": "https://twitter-clone.42web.io/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "PHP",
+          "icon": "devicon-php-plain"
+        },
+        {
+          "name": "Composer",
+          "icon": "devicon-composer-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-plain"
         }
       ]
     },
@@ -941,7 +1005,7 @@
     {
       "title": "Spotify Clone",
       "imageSrc": "./assets/images/spotify-clone.jpg",
-      "description": "Um clone do site Spotify.",
+      "description": "Um clone do site Spotify. Criado apenas para fins de estudo.",
 			"codeHostingUrl": "https://github.com/jonasmzsouza/web-development-course/tree/master/section07/spotify-project",
       "appUrl": "https://spotify-clone-proj.netlify.app/",
       "isMobileApp": false,
