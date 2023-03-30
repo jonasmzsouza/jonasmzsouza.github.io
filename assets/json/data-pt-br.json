@@ -405,6 +405,120 @@
       ]
     },
     {
+      "title": "Github API",
+      "imageSrc": "./assets/images/ds-github-api.jpg",
+      "description": "Uma aplicação Web desenvolvida no ReactJS que consome o Github API.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/ds-github-api",
+      "appUrl": "https://ds-github-api.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "ReactJS",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Yarn",
+          "icon": "devicon-yarn-plain"
+        }
+      ]
+    },
+    {
+      "title": "ViaCEP API",
+      "imageSrc": "./assets/images/ds-viacep-api.jpg",
+      "description": "Uma aplicação Web desenvolvida no ReactJS que consome o ViaCEP API.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/ds-viacep-api",
+      "appUrl": "https://ds-viacep-api.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "ReactJS",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Yarn",
+          "icon": "devicon-yarn-plain"
+        }
+      ]
+    },
+    {
+      "title": "Carros Top",
+      "imageSrc": "./assets/images/ds-carros-top.jpg",
+      "description": "Uma aplicação web simples desenvolvida em ReactJS com layout e navegação (nota: a api será desenvolvida posteriormente).",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/ds-carros-top",
+      "appUrl": "https://ds-carros-top.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "ReactJS",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Yarn",
+          "icon": "devicon-yarn-plain"
+        }
+      ]
+    },
+    {
       "title": "JMSCalculator",
       "imageSrc": "./assets/images/jmscalculator.jpg",
       "description": "Uma aplicação de calculadora com operações básicas e outras operações tais como porcentagem, potência, bem como som, data e hora.",
