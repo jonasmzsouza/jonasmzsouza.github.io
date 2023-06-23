@@ -40,7 +40,7 @@
         "startDate": "August 2021",
         "endDate": "present"
       },
-      "description": "Acting in the development, maintenance and improvements of the main site. \n Acting in the creation of landing pages for fundraising campaigns and commemorative dates. \n Acting in the configuration and maintenance of blogs and sites related to the institution's departments. \n Acting in the configuration, maintenance and monitoring of services and backup routines on servers. \n Acting in the development of the Call System project for the Marketing department. \n Learning new tools, participation in the phases of analysis and development of products on the web platform. \n Tools used: Ubuntu, WordPress, PHP, Laravel, MySQL, phpMyAdmin, HTML, CSS, JavaScript, jQuery, SendGrid and RDStation."
+      "description": "Acting in the development, maintenance and improvements of the main site. \n Acting in the creation of landing pages for fundraising campaigns and commemorative dates. \n Acting in the configuration and maintenance of blogs and sites related to the institution's departments. \n Acting in the configuration, maintenance and monitoring of services and backup routines on servers. \n Acting in the development of the Call System project for the Marketing department and Trello API integration. \n Learning new tools, participation in the phases of analysis and development of products on the web platform. \n Tools used: Ubuntu, WordPress, PHP, Laravel, MySQL, phpMyAdmin, HTML, CSS, JavaScript, jQuery, SendGrid and RDStation."
     },
     {
       "title": "Administrative Analyst",
@@ -151,6 +151,14 @@
           "icon": "devicon-react-plain"
         },
         {
+          "skill": "Angular",
+          "icon": "devicon-angularjs-plain"
+        },
+        {
+          "skill": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        },           
+        {
           "skill": "Jest",
           "icon": "devicon-jest-plain"
         },
@@ -216,6 +224,12 @@
     }
   ],
   "certification": [
+    {
+      "degreeType": "course",
+      "school": "DIO",
+      "fieldOfStudy": "Bootcamp Cloud AWS",
+      "degreeUrl": "https://drive.google.com/file/d/1i-RqHA6Ss5hgbVooALaCLwwTBiU0E95u/view?usp=drive_link"
+    },
     {
       "degreeType": "course",
       "school": "DIO",
@@ -362,6 +376,58 @@
     }
   ],
   "portfolio": [
+    {
+      "title": "Dio Angular Blog",
+      "imageSrc": "./assets/images/dio-angular-blog.jpg",
+      "description": "A simple blogging web app using basic Angular properties and directives.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/dio-angular-blog",
+      "appUrl": "https://dio-angular-blog.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "Angular",
+          "icon": "devicon-angularjs-plain"
+        }
+      ]
+    },
+    {
+      "title": "Assemble Snack",
+      "imageSrc": "./assets/images/assemble-snack.jpg",
+      "description": "A simple web application that assembles a snack using the basic properties and directives of VueJS.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/assemble-snack",
+      "appUrl": "https://jonasmzsouza.github.io/assemble-snack/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        }
+      ]
+    },
     {
       "title": "Dio Bank",
       "imageSrc": "./assets/images/dio-bank.jpg",

@@ -40,7 +40,7 @@
         "startDate": "Agosto 2021",
         "endDate": "o momento"
       },
-      "description": "Atuação no desenvolvimento, manutenção e melhorias no site principal. \n Atuação na criação de landing pages para campanhas de captação e datas comemorativas. \n Atuação na configuração e manutenção de blogs e sites relacionados a departamentos da instituição. \n Atuação na configuração, manutenção e monitoramento de serviços e rotinas de backup em servidores. \n Atuação no desenvolvimento do projeto de Sistema de Chamados para o departamento do Marketing. \n Aprendizagem de novas ferramentas, participação nas fases de análise e desenvolvimento de produtos na plataforma web. \n Ferramentas utilizadas: Ubuntu, WordPress, PHP, Laravel, MySQL, phpMyAdmin, HTML, CSS, JavaScript, jQuery, SendGrid e RDStation."
+      "description": "Atuação no desenvolvimento, manutenção e melhorias no site principal. \n Atuação na criação de landing pages para campanhas de captação e datas comemorativas. \n Atuação na configuração e manutenção de blogs e sites relacionados a departamentos da instituição. \n Atuação na configuração, manutenção e monitoramento de serviços e rotinas de backup em servidores. \n Atuação no desenvolvimento do projeto de Sistema de Chamados para o departamento do Marketing e Integração com Trello API. \n Aprendizagem de novas ferramentas, participação nas fases de análise e desenvolvimento de produtos na plataforma web. \n Ferramentas utilizadas: Ubuntu, WordPress, PHP, Laravel, MySQL, phpMyAdmin, HTML, CSS, JavaScript, jQuery, SendGrid e RDStation."
     },
     {
       "title": "Analista Administrativo",
@@ -150,6 +150,14 @@
           "skill": "React",
           "icon": "devicon-react-plain"
         },
+        {
+          "skill": "Angular",
+          "icon": "devicon-angularjs-plain"
+        },
+        {
+          "skill": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        },                
 				{
           "skill": "Jest",
           "icon": "devicon-jest-plain"
@@ -216,6 +224,12 @@
     }
   ],
   "certification": [
+    {
+      "degreeType": "course",
+      "school": "DIO",
+      "fieldOfStudy": "Bootcamp Cloud AWS",
+      "degreeUrl": "https://drive.google.com/file/d/1i-RqHA6Ss5hgbVooALaCLwwTBiU0E95u/view?usp=drive_link"
+    },
     {
       "degreeType": "course",
       "school": "DIO",
@@ -362,6 +376,58 @@
     }
   ],
   "portfolio": [
+    {
+      "title": "Dio Angular Blog",
+      "imageSrc": "./assets/images/dio-angular-blog.jpg",
+      "description": "Um aplicativo da Web simples para blogs usando propriedades e diretivas básicas do Angular.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/dio-angular-blog",
+      "appUrl": "https://dio-angular-blog.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "Angular",
+          "icon": "devicon-angularjs-plain"
+        }
+      ]
+    },
+    {
+      "title": "Assemble Snack",
+      "imageSrc": "./assets/images/assemble-snack.jpg",
+      "description": "Uma simples aplicação web que monta um lanche utilizando as propriedades básicas e diretrizes do VueJS.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/assemble-snack",
+      "appUrl": "https://jonasmzsouza.github.io/assemble-snack/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        }
+      ]
+    },
     {
       "title": "Dio Bank",
       "imageSrc": "./assets/images/dio-bank.jpg",
