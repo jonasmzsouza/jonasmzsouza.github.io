@@ -377,6 +377,32 @@
   ],
   "portfolio": [
     {
+      "title": "Dio Angular PSN Store",
+      "imageSrc": "./assets/images/dio-angular-psn-store.jpg",
+      "description": "A PlayStation Store clone web application using Angular properties and directives and touch slider by Swiper.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/dio-angular-psn-store",
+      "appUrl": "https://dio-angular-psn-store.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "Angular",
+          "icon": "devicon-angularjs-plain"
+        }
+      ]
+    },
+    {
       "title": "Dio Angular Blog",
       "imageSrc": "./assets/images/dio-angular-blog.jpg",
       "description": "A simple blogging web app using basic Angular properties and directives.",
