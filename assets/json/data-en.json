@@ -377,6 +377,32 @@
   ],
   "portfolio": [
     {
+      "title": "Dio Angular BuzzFeed",
+      "imageSrc": "./assets/images/dio-angular-buzzfeed.jpg",
+      "description": "A BuzzFeed clone web application using Angular properties and directives.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/dio-angular-buzzfeed",
+      "appUrl": "https://dio-angular-buzzfeed.netlify.app/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain"
+        },
+        {
+          "name": "Angular",
+          "icon": "devicon-angularjs-plain"
+        }
+      ]
+    },
+    {
       "title": "Dio Angular PSN Store",
       "imageSrc": "./assets/images/dio-angular-psn-store.jpg",
       "description": "A PlayStation Store clone web application using Angular properties and directives and touch slider by Swiper.",
