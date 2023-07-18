@@ -456,10 +456,10 @@
     },
     {
       "title": "Assemble Snack",
-      "imageSrc": "./assets/images/assemble-snack.jpg",
+      "imageSrc": "./assets/images/vue-assemble-snack.jpg",
       "description": "Uma simples aplicação web que monta um lanche utilizando as propriedades básicas e diretrizes do VueJS.",
-      "codeHostingUrl": "https://github.com/jonasmzsouza/assemble-snack",
-      "appUrl": "https://jonasmzsouza.github.io/assemble-snack/",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/vue-assemble-snack",
+      "appUrl": "https://jonasmzsouza.github.io/vue-assemble-snack/",
       "isMobileApp": false,
       "technologies": [
         {
