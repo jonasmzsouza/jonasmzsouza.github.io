@@ -377,6 +377,36 @@
   ],
   "portfolio": [
     {
+      "title": "Vue Vagas",
+      "imageSrc": "./assets/images/vue-vagas.jpg",
+      "description": "A web application for registering and displaying jobs from localStorage using VueJS components, properties and directives.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/vue-vagas",
+      "appUrl": "https://jonasmzsouza.github.io/vue-vagas/",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        }
+      ]
+    },
+    {
       "title": "Dio Angular BuzzFeed",
       "imageSrc": "./assets/images/dio-angular-buzzfeed.jpg",
       "description": "A BuzzFeed clone web application using Angular properties and directives.",
