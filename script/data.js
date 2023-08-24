@@ -37,10 +37,9 @@ function getGeneralData() {
   $("#btnLanguage")
     .find("img")
     .attr({
-      "alt":
-      isDefaultLanguage ? "Versão em Português" : "Version in English",
-      "title": isDefaultLanguage ? "Alterne o idioma" : "Change Language",
-  });
+      alt: isDefaultLanguage ? "Versão em Português" : "Version in English",
+      title: isDefaultLanguage ? "Alterne o idioma" : "Change Language",
+    });
   $("#btnLight").attr(
     "title",
     isDefaultLanguage ? "Alterne o tema" : "Change the theme"
@@ -159,32 +158,35 @@ function getPortfolio(objJSONDataPage) {
     codeHosting.setAttribute("target", "_blank");
     codeHosting.appendChild(repo);
 
+    let projectLinks = elementData("div", "", "project-links");
+    projectLinks.appendChild(codeHosting);
+
     let app = elementData(
       "span",
       "<b>app</b>",
       pageItem.isMobileApp ? "fas fa-mobile-alt" : "fas fa-globe"
     );
     let appUrl;
-    if (pageItem.isMobileApp) {
-      appUrl = elementData("a", "", "link-item app-modal");
-      appUrl.setAttribute("onclick", "openAppModal(this)");
-      appUrl.setAttribute("data-src", pageItem.appUrl);
-      appUrl.appendChild(app);
-    } else {
-      appUrl = elementData("a", "", "link-item web");
-      appUrl.setAttribute("href", pageItem.appUrl);
-      appUrl.setAttribute("rel", "noopener noreferrer");
-      appUrl.setAttribute("target", "_blank");
-      appUrl.appendChild(app);
-    }
 
-    let projectDate = elementData("div", "", "project-links");
-    projectDate.appendChild(codeHosting);
-    projectDate.appendChild(appUrl);
+    if (pageItem.appUrl) {
+      if (pageItem.isMobileApp) {
+        appUrl = elementData("a", "", "link-item app-modal");
+        appUrl.setAttribute("onclick", "openAppModal(this)");
+        appUrl.setAttribute("data-src", pageItem.appUrl);
+        appUrl.appendChild(app);
+      } else {
+        appUrl = elementData("a", "", "link-item web");
+        appUrl.setAttribute("href", pageItem.appUrl);
+        appUrl.setAttribute("rel", "noopener noreferrer");
+        appUrl.setAttribute("target", "_blank");
+        appUrl.appendChild(app);
+      }
+      projectLinks.appendChild(appUrl);
+    }
 
     let cardFooter = elementData("div", "", "card-footer");
     cardFooter.appendChild(cardTechnologies);
-    cardFooter.appendChild(projectDate);
+    cardFooter.appendChild(projectLinks);
 
     let card = elementData("div", "", "card h-100");
     card.appendChild(cardTitle);
