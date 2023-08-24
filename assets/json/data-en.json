@@ -377,6 +377,122 @@
   ],
   "portfolio": [
     {
+      "title": "Vue Pokédex",
+      "imageSrc": "./assets/images/vue-pokedex.jpg",
+      "description": "A web application with the aim of displaying animations with simple information about some pokémon, as well as using VueJS routes, properties and directives and the Fake API with JSON Server.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/vue-pokedex",
+      "appUrl": "",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        }
+      ]
+    },
+    {
+      "title": "Vue Company 360",
+      "imageSrc": "./assets/images/vue-company-360.jpg",
+      "description": "A web application to navigate between components through Vue Router, as well as use VueJS properties and directives and the Fake API with JSON Server.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/vue-company-360",
+      "appUrl": "",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        }
+      ]
+    },
+    {
+      "title": "Vue Mixins",
+      "imageSrc": "./assets/images/vue-mixins.jpg",
+      "description": "Mixins - Merge features between components using the basic properties and directives of VueJS.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/vue-mixins",
+      "appUrl": "",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        }
+      ]
+    },
+    {
+      "title": "Vue Form",
+      "imageSrc": "./assets/images/vue-form.jpg",
+      "description": "A simple web application for manipulating form fields using VueJS properties, directives and events.",
+      "codeHostingUrl": "https://github.com/jonasmzsouza/vue-form",
+      "appUrl": "https://jonasmzsouza.github.io/vue-form",
+      "isMobileApp": false,
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "VueJS",
+          "icon": "devicon-vuejs-plain"
+        }
+      ]
+    },
+    {
       "title": "Vue Vagas",
       "imageSrc": "./assets/images/vue-vagas.jpg",
       "description": "A web application for registering and displaying jobs from localStorage using VueJS components, properties and directives.",
