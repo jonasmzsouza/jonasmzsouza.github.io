@@ -59,7 +59,7 @@ function getGeneralData() {
       isDefaultLanguage ? "Imagem de Jonas Souza" : "Image of Jonas Souza"
     );
   $(".apresentation-title").html(
-    isDefaultLanguage ? "Desenvolvedor Web" : "Web Developer"
+    isDefaultLanguage ? "Desenvolvedor Full Stack" : "Full Stack Developer"
   );
 
   // ABOUT MENU
@@ -377,7 +377,7 @@ function getSkills(objJSONDataPage, page) {
   getTitle(page);
   let isDefaultLanguage = script.isDefaultLanguage();
   let languages = isDefaultLanguage ? "Idiomas" : "Languages";
-  let markupProgramming = isDefaultLanguage
+  let technologies = isDefaultLanguage
     ? "Marcação e Programação"
     : "Markut and Programming";
   let tools = isDefaultLanguage ? "Ferramentas" : "Tools";
@@ -395,10 +395,10 @@ function getSkills(objJSONDataPage, page) {
       divLanguages.appendChild(p);
     }
 
-    let divMarkupProgramming = elementData("div", "", "devicon-box");
-    for (let c in pageItem.markupProgramming) {
-      divMarkupProgramming.appendChild(
-        skillsIcon(pageItem.markupProgramming[c])
+    let divTechnologies = elementData("div", "", "devicon-box");
+    for (let c in pageItem.technologies) {
+      divTechnologies.appendChild(
+        skillsIcon(pageItem.technologies[c])
       );
     }
 
@@ -409,8 +409,8 @@ function getSkills(objJSONDataPage, page) {
 
     aboutContent.appendChild(elementData("p", languages, classTitle1));
     aboutContent.appendChild(divLanguages);
-    aboutContent.appendChild(elementData("p", markupProgramming, classTitle1));
-    aboutContent.appendChild(divMarkupProgramming);
+    aboutContent.appendChild(elementData("p", technologies, classTitle1));
+    aboutContent.appendChild(divTechnologies);
     aboutContent.appendChild(elementData("p", tools, classTitle1));
     aboutContent.appendChild(divTools);
   }
