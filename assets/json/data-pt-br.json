@@ -17,7 +17,7 @@
         "startDate": "Março 2024",
         "endDate": "Março 2025"
       },
-      "description": ""
+      "description": "Criar projetos complexos de software utilizando as melhores técnicas e arquiteturas de desenvolvimento (DDD, Arquitetura Hexagonal, Clean Archicteture, Clean Code, Microserviços). \n Aplicar técnicas avançadas de qualidade de software e segurança no desenvolvimento (TDD, BDD, OWASP e OWASP Top 10, LGPD). \n Desenvolver softwares com containers (Docker) e Kubernetes utilizando arquiteturas como SAGA Patterns. \n Desenvolver utilizando banco de dados MongoDB, Redis, Neo4j e Cassandra. \n Desenvolver aplicações serverless com AWS SAM, Funções Lambda, API Gateway. \n DevOps (IaC and CI/CD) com Github Actions, Terraform."
     },
     {
       "school": "Faculdade de Informática e Administração Paulista - FIAP",
@@ -28,7 +28,7 @@
         "startDate": "Fevereiro 2020",
         "endDate": "Dezembro 2021"
       },
-      "description": ""
+      "description": "Modelar sistemas utilizando Análise Orientada a Objetos e melhores práticas de desenvolvimento (UML, XP, Scrum). \n Construir projetos de aplicações sob medida (distribuída, web e mobile) aplicando Design Thinking & Propotyping para um cliente real e atualizando sistemas já existentes. \n Integrar e desenvolver aplicações web com interfaces responsivas utilizando padrões W3C, web semântica e SEO. \n Usar tecnologias como HTML 5, CSS 3, Javascript, JQuery, Bootstrap e Java EE: Servlets, JSPs, JSTL e EL. \n Criar aplicações em Java e .Net (JPA, Hibernate, EJB, ASP.NET MVC, WEB API e Entity Framework). \n Desenvolver aplicações com JSF, Spring, web services e cloud computing (IBM Cloud), tecnologia WebServices e RESTful (JAX-WS, JAX-RS, XML, JSON), interagindo com bancos de dados padrão SQL (Oracle), Big Data & Analytics e com as interfaces do sistema (MVC). \n Construir dashboards e criar aplicações para Internet das Coisas, Inteligência Artificial e Smart Cities."
     },
     {
       "school": "Universidade Paulista - UNIP",
@@ -39,7 +39,7 @@
         "startDate": "Fevereiro 2006",
         "endDate": "Dezembro 2009"
       },
-      "description": "Trabalho de conclusão de curso sobre sistema de automação comercial. Gestão de vendas e estoque para microempresas."
+      "description": "Desenvolver programas; \n Projetar e desenvolver aplicativos para microcomputadores e computadores de grande porte; \n Propor planos e sistemas de informatização na empresa; \n Analisar custos, viabilidade técnica, econômica e financeira para a implantação de processos de automação; \n Elaborar programas genéricos como processadores de texto, planilhas eletrônicas e programas de multimídia; \n Controlar o fluxo de informações na empresa através da criação de aplicativos que facilitem este processo."
     }
   ],
   "experience": [
@@ -191,6 +191,10 @@
           "skill": "VSCode",
           "icon": "devicon-vscode-plain"
         },
+        {
+          "skill": "IntelliJ",
+          "icon": "devicon-intellij-plain"
+        },
 				{
           "skill": "Git",
           "icon": "devicon-git-plain"
@@ -210,6 +214,10 @@
 				{
           "skill": "Heroku",
           "icon": "devicon-heroku-original"
+        },
+        {
+          "skill": "Railway",
+          "icon": "devicon-railway-original"
         },
 				{
           "skill": "Jupyter",

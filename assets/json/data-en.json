@@ -17,7 +17,7 @@
         "startDate": "March 2024",
         "endDate": "March 2025"
       },
-      "description": ""
+      "description": "Create complex software projects using the best development techniques and architectures (DDD, Hexagonal Architecture, Clean Architecture, Clean Code, Microservices). \n Apply advanced software quality and security techniques in development (TDD, BDD, OWASP and OWASP Top 10, LGPD). \n Develop software with containers (Docker) and Kubernetes using architectures such as SAGA Patterns. \n Developing using MongoDB, Redis, Neo4j and Cassandra databases. \n Developing serverless applications with AWS SAM, Lambda Functions, API Gateway. \n DevOps (IaC and CI/CD) with Github Actions, Terraform."
     },
     {
       "school": "Faculdade de Informática e Administração Paulista - FIAP",
@@ -28,7 +28,7 @@
         "startDate": "February 2020",
         "endDate": "December 2021"
       },
-      "description": ""
+      "description": "Model systems using Object Oriented Analysis and development best practices (UML, XP, Scrum). \n Build tailor-made application projects (distributed, web and mobile) applying Design Thinking & Propotyping for a real client and updating existing systems. \n Integrating and developing web applications with responsive interfaces using W3C standards, semantic web and SEO. \n Use technologies such as HTML 5, CSS 3, Javascript, JQuery, Bootstrap and Java EE: Servlets, JSPs, JSTL and EL. \n Create applications in Java and .Net (JPA, Hibernate, EJB, ASP.NET MVC, WEB API and Entity Framework). \n Developing applications with JSF, Spring, web services and cloud computing (IBM Cloud), WebServices and RESTful technology (JAX-WS, JAX-RS, XML, JSON), interacting with standard SQL databases (Oracle), Big Data & Analytics and system interfaces (MVC). \n Building dashboards and creating applications for the Internet of Things, Artificial Intelligence and Smart Cities."
     },
     {
       "school": "Universidade Paulista - UNIP",
@@ -39,7 +39,7 @@
         "startDate": "February 2006",
         "endDate": "December 2009"
       },
-      "description": ""
+      "description": "Developing programs; \n Designing and developing applications for microcomputers and large computers; \n Proposing computerization plans and systems in the company; \n Analyzing costs, technical, economic and financial feasibility for implementing automation processes; \n Developing generic programs such as word processors, spreadsheets and multimedia programs; \n Controlling the flow of information in the company by creating applications that facilitate this process."
     }
   ],
   "experience": [
@@ -192,6 +192,10 @@
           "icon": "devicon-vscode-plain"
         },
         {
+          "skill": "IntelliJ",
+          "icon": "devicon-intellij-plain"
+        },
+        {
           "skill": "Git",
           "icon": "devicon-git-plain"
         },
@@ -210,6 +214,10 @@
         {
           "skill": "Heroku",
           "icon": "devicon-heroku-original"
+        },
+        {
+          "skill": "Railway",
+          "icon": "devicon-railway-original"
         },
         {
           "skill": "Jupyter",

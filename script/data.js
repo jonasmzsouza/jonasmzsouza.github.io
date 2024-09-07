@@ -378,8 +378,8 @@ function getSkills(objJSONDataPage, page) {
   let isDefaultLanguage = script.isDefaultLanguage();
   let languages = isDefaultLanguage ? "Idiomas" : "Languages";
   let technologies = isDefaultLanguage
-    ? "Marcação e Programação"
-    : "Markut and Programming";
+    ? "Tecnologias"
+    : "Technologies";
   let tools = isDefaultLanguage ? "Ferramentas" : "Tools";
   for (let i in objJSONDataPage) {
     let pageItem = objJSONDataPage[i];
